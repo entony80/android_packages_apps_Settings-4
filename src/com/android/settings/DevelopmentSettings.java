@@ -208,7 +208,9 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private static final String DEVELOPMENT_SHORTCUT_KEY = "development_shortcut";
 
-    private static final String SELINUX = "selinux"; 
+    private static final String MEDIA_SCANNER_ON_BOOT = "media_scanner_on_boot";
+
+    private static final String SELINUX = "selinux";
 
     private static final int RESULT_DEBUG_APP = 1000;
     private static final int RESULT_MOCK_LOCATION_APP = 1001;
@@ -307,7 +309,9 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private SwitchPreference mDevelopmentShortcut;
 
-    private SwitchPreference mSelinux; 
+    private ListPreference mMSOB;
+
+    private SwitchPreference mSelinux;
 
     private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
 
@@ -396,6 +400,9 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
         mDevelopmentShortcut = findAndInitSwitchPref(DEVELOPMENT_SHORTCUT_KEY);
 
+        mMSOB = (ListPreference) findPreference(MEDIA_SCANNER_ON_BOOT);
+        mAllPrefs.add(mMSOB);
+        mMSOB.setOnPreferenceChangeListener(this);
 
         if (!android.os.Process.myUserHandle().equals(UserHandle.OWNER)) {
             disableForUser(mEnableAdb);
@@ -756,6 +763,26 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateRootAccessOptions();
         updateAdvancedRebootOptions();
         updateDevelopmentShortcutOptions();
+        updateMSOBOptions();
+    }
+
+    private void resetMSOBOptions() {
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0);
+    }
+
+    private void writeMSOBOptions(Object newValue) {
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT,
+                Integer.valueOf((String) newValue));
+        updateMSOBOptions();
+    }
+
+    private void updateMSOBOptions() {
+        int value = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.MEDIA_SCANNER_ON_BOOT, 0);
+        mMSOB.setValue(String.valueOf(value));
+        mMSOB.setSummary(mMSOB.getEntry());
     }
 
     private void writeAdvancedRebootOptions() {
@@ -823,6 +850,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             }
         }
         resetDebuggerOptions();
+        resetMSOBOptions();
         writeLogdSizeOption(null);
         resetRootAccessOptions();
         resetAdbNotifyOptions();
@@ -1692,7 +1720,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private void writeAnimationScaleOption(int which, AnimationScalePreference pref,
             Object newValue) {
         try {
-            float scale = newValue != null ? Float.parseFloat(newValue.toString()) : 0.5f;
+            float scale = newValue != null ? Float.parseFloat(newValue.toString()) : 1;
             mWindowManager.setAnimationScale(which, scale);
             updateAnimationScaleValue(which, pref);
         } catch (RemoteException e) {
@@ -2128,6 +2156,9 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
             return true;
         } else if (preference == mKillAppLongpressTimeout) {
             writeKillAppLongpressTimeoutOptions(newValue);
+            return true;
+        } else if (preference == mMSOB) {
+            writeMSOBOptions(newValue);
             return true;
         } else if (preference == mSelinux) {
             if (newValue.toString().equals("true")) {
