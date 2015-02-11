@@ -30,6 +30,11 @@
                        android:targetClass="com.fusionjack.slimota.MainActivity" />
         </PreferenceScreen>
 
+        <!-- About CyanPop -->
+        <PreferenceScreen android:key="about"
+                android:title="@string/about_crdroid"
+                android:fragment="com.android.settings.crdroid.About" />
+
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"

@@ -23,6 +23,22 @@
     <!-- CyanPop OTA -->
     <string name="slimota_title">CyanPopOTA</string>
 
+    <!-- About CyanPop -->
+    <string name="about_crdroid">About CyanPop</string>
+
+    <!-- Share CyanPop -->
+    <string name="share_crdroid_title">Share CyanPop</string>
+    <string name="share_crdroid_summary">Let others know about CyanPop</string>
+    <string name="share_message">Check out what #CyanPop is all about @ https://plus.google.com/communities/108415691944011221314</string>
+    <string name="share_chooser_title">Share CyanPop</string>
+
+    <!-- Sites CyanPop OS -->
+    <string name="sites_crdroid">Useful links</string>
+    <string name="crdroid_source_title">Github</string>
+    <string name="crdroid_source_summary">Checkout the ROM\'s source</string>
+    <string name="crdroid_google_plus_title">Google+</string>
+    <string name="crdroid_google_plus_summary">Visit our G+ page for support and news</string>
+
     <!-- Performance -->
     <string name="performance_settings">Performance</string>
 
