@@ -19,6 +19,9 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+   <!-- CyanPop Extras -->
+    <string name="temasek_settings_title">CyanPop Extras</string>
+
     <!-- General strings -->
     <string name="attention">Attention</string>
     <string name="reset">Reset</string>

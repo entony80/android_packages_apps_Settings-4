@@ -95,6 +95,14 @@
                 android:icon="@drawable/ic_settings_buttons"
                 />
 
+        <!-- CyanPop Extras -->
+        <dashboard-tile
+                android:id="@+id/temasek_settings"
+                android:title="@string/temasek_settings_title"
+                android:fragment="com.android.settings.temasek.TemasekSettings"
+                android:icon="@drawable/ic_settings_system"
+                />
+
        <!-- Kernel Auditor App -->
         <dashboard-tile
                 android:id="@+id/kernel_auditor"
