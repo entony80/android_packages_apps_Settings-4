@@ -16,12 +16,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, CyanPop version name-->
-    <string name="mod_version">CyanPop version</string>
+    <string name="cyanpop_mod_version">CyanPop version</string>
     <!-- About phone screen, CyanPop unknown name-->
-    <string name="mod_version_default">Unknown</string>
+    <string name="cyanpop_mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2012-01-01-0000</string>
+    <string name="cyanpop_build_date">Build date</string>
+    <string name="cyanpop_build_date_default">2012-01-01-0000</string>
 
 </resources>
 
