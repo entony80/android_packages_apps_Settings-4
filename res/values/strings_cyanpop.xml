@@ -23,4 +23,7 @@
     <!-- CyanPop OTA -->
     <string name="slimota_title">CyanPopOTA</string>
 
+    <!-- BitSyko Layers  -->
+    <string name="bitsyko_layers">Layers</string>
+
 </resources>
