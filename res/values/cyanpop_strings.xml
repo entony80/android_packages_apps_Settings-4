@@ -26,4 +26,7 @@
     <!-- BitSyko Layers  -->
     <string name="bitsyko_layers">Layers</string>
 
+    <!-- Performance -->
+    <string name="performance_settings">Performance</string>
+
 </resources>
