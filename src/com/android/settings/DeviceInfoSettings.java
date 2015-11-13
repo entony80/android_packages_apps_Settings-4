@@ -88,6 +88,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
+    private static final String KEY_UPDATE_SETTINGS = "update_settings";
+    private static final String KEY_UPDATE_SETTINGS_PACKAGE_NAME = "com.cyanpop.ota";
+ 
+    private PreferenceScreen mUpdateSettings;
+
     long[] mHits = new long[3];
     int mDevHitCountdown;
     Toast mDevHitToast;
@@ -207,6 +212,12 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             }
         }
     }
+
+       // Remove update settings if it is not present.
+        mUpdateSettings = (PreferenceScreen) findPreference(KEY_UPDATE_SETTINGS);
+        if (!Utils.isPackageInstalled(getActivity(), KEY_UPDATE_SETTINGS_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(mUpdateSettings);
+        }
 
     @Override
     public void onResume() {
