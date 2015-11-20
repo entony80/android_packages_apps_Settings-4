@@ -20,8 +20,8 @@
     <string name="changelog_title_summary">View recent changes in ROM</string>
     <string name="changelog_error">Unable to load changelog</string>
 
-    <!-- Updater -->
-    <string name="updater_title">CyanPop Updates</string>
-    <string name="updater_summary">Check for updates and more</string>
+    <!-- CyanPop OTA -->
+    <string name="cyanpopota_title">CyanPopOTA</string>
+    <string name="cyanpopota_summary">Check for updates and more</string>
 
 </resources>

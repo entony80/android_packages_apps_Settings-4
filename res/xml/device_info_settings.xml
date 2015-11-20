@@ -21,14 +21,14 @@
                           android:enabled="false"
                           android:layout="@layout/cyanpop_logo_row" />
 
-       <!-- Updater -->
+       <!-- CyanPopOTA -->
         <PreferenceScreen
                 android:key="update_settings"
-                android:title="@string/updater_title"
-                android:summary="@string/updater_summary">
+                android:title="@string/cyanpopota_title"
+                android:summary="@string/cyanpopota_summary">
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanpop.ota"
-                    android:targetClass="com.cyanpop.center.OTACenter" />
+                    android:targetPackage="com.cyanpop.cyanpopota"
+                    android:targetClass="com.cyanpop.center.CyanPopOTA" />
         </PreferenceScreen>
 
         <!-- System update settings - launches activity -->
