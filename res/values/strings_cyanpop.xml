@@ -21,7 +21,6 @@
     <string name="changelog_error">Unable to load changelog</string>
 
     <!-- CyanPop OTA -->
-    <string name="cyanpopota_title">CyanPopOTA</string>
-    <string name="cyanpopota_summary">Check for updates and more</string>
+    <string name="slimota_title">CyanPopOTA</string>
 
 </resources>
