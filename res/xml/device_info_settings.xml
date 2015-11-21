@@ -20,15 +20,14 @@
         <PreferenceScreen android:key="cyanpop_logo"
                           android:enabled="false"
                           android:layout="@layout/cyanpop_logo_row" />
-
-       <!-- CyanPopOTA -->
+        <!-- CyanPop OTA -->
         <PreferenceScreen
-                android:key="update_settings"
-                android:title="@string/cyanpopota_title"
-                android:summary="@string/cyanpopota_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanpop.cyanpopota"
-                    android:targetClass="com.cyanpop.center.CyanPopOTA" />
+               android:key="slimota"
+               android:title="@string/slimota_title">
+               <intent
+                       android:action="android.intent.action.MAIN"
+                       android:targetPackage="com.fusionjack.slimota"
+                       android:targetClass="com.fusionjack.slimota.MainActivity" />
         </PreferenceScreen>
 
         <!-- System update settings - launches activity -->

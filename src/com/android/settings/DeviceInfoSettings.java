@@ -20,7 +20,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ResolveInfo;
 import android.os.Build;
 import android.os.Bundle;
@@ -88,10 +90,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
-    private static final String KEY_UPDATE_SETTINGS = "update_settings";
-    private static final String KEY_UPDATE_SETTINGS_PACKAGE_NAME = "com.cyanpop.ota";
- 
-    private PreferenceScreen mUpdateSettings;
+    private static final String KEY_SLIM_OTA = "slimota";
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
@@ -163,6 +162,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SAFETY_LEGAL,
                 PROPERTY_URL_SAFETYLEGAL);
+
+        // Only the owner should see the Updater settings, if it exists
+        if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
+            removePreferenceIfPackageNotInstalled(findPreference(KEY_SLIM_OTA));
+        } else {
+            getPreferenceScreen().removePreference(findPreference(KEY_SLIM_OTA));
+        }
 
         // Remove Equipment id preference if FCC ID is not set by RIL
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_EQUIPMENT_ID,
