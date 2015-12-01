@@ -26,6 +26,19 @@
         android:selectable="false" />
 
         <PreferenceCategory
+             android:key="device_category_rom"
+             android:title="@string/device_category_rom_title" >
+
+             <Preference
+                 android:key="device_rom_developer"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_rom_developer"
+                 android:summary="@string/device_rom_developer_summary"
+                 android:selectable="false" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
              android:key="device_category_motorola"
              android:title="@string/device_category_motorola_title" >
 
