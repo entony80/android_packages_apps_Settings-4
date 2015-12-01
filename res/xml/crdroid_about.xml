@@ -25,7 +25,7 @@
         <!-- Changelog -->
         <PreferenceScreen
             android:key="changelog"
-            android:title="@string/changelog_crdroid_title"
+            android:title="@string/changelog_title"
             android:fragment="com.android.settings.cyanpop.ChangeLog" />
 
         <!-- Devices and Maintainers -->
