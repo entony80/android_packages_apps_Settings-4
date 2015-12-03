@@ -21,7 +21,7 @@
     <string name="changelog_error">Unable to load changelog</string>
 
     <!-- CyanPop OTA -->
-    <string name="slimota_title">CyanPopOTA</string>
+    <string name="slimota_title">Updates</string>
 
     <!-- About CyanPop -->
     <string name="about_crdroid">About CyanPop</string>
