@@ -26,7 +26,7 @@
     <string name="device_category_motorola_title">MOTOROLA</string>
 
     <!-- Supported Devices and Maintainers -->
-    <string name="device_rom_developer">Device Developer</string>
+    <string name="device_rom_developer">Rom Developer</string>
     <string name="device_rom_developer_summary">Rom \nDeveloper - RolanDroid</string>
 
     <!-- Motorola devices -->
