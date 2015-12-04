@@ -44,6 +44,6 @@
     <string name="device_maintainers_title_summary">List of Supported devices by CyanPop maintainers</string>
 
     <!-- Performance -->
-    <string name="performance_settings">Performance</string>
+    <string name="performance_settings">KernelAdiutor</string>
 
 </resources>
