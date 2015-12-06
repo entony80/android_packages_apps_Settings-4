@@ -17,7 +17,6 @@
 
     <!-- Change Log -->
     <string name="changelog_title">Changelog</string>
-    <string name="changelog_title_summary">View recent changes in ROM</string>
     <string name="changelog_error">Unable to load changelog</string>
 
     <!-- CyanPop OTA -->

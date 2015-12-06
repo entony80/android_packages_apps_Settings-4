@@ -53,7 +53,6 @@
         <!-- Change Log -->
         <PreferenceScreen android:key="changelog"
                 android:title="@string/changelog_title"
-                android:summary="@string/changelog_title_summary"
                 android:fragment="com.android.settings.cyanpop.ChangeLog" />
 
         <!-- Device status - launches activity -->
