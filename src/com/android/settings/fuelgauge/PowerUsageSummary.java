@@ -463,6 +463,8 @@ public class PowerUsageSummary extends PowerUsageBase
             return;
         }
         mPerfProfilePref.setValue(String.valueOf(mPerf.getPowerProfile()));
+        mPerAppProfiles.setEnabled(
+            mPerf.getProfileHasAppProfiles(mPerf.getPowerProfile()));
         updatePerformanceSummary();
     }
 
@@ -515,7 +517,7 @@ public class PowerUsageSummary extends PowerUsageBase
                     if (percentOfTotal < 10) {
                         continue;
                     }
-                    if ("user".equals(Build.TYPE)) {
+                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE)) {
                         continue;
                     }
                 }
@@ -528,7 +530,7 @@ public class PowerUsageSummary extends PowerUsageBase
                     if (percentOfTotal < 5) {
                         continue;
                     }
-                    if ("user".equals(Build.TYPE)) {
+                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE)) {
                         continue;
                     }
                 }

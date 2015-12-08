@@ -81,6 +81,8 @@ import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.WriteSettingsDetails;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothSettings;
+import com.android.settings.contributors.ContributorsCloudFragment;
+import com.android.settings.cyanogenmod.DisplayRotation;
 import com.android.settings.dashboard.DashboardCategory;
 import com.android.settings.dashboard.DashboardSummary;
 import com.android.settings.dashboard.DashboardTile;
@@ -364,8 +366,10 @@ public class SettingsActivity extends Activity
             DrawOverlayDetails.class.getName(),
             WriteSettingsDetails.class.getName(),
             LiveDisplay.class.getName(),
+            com.android.settings.cyanogenmod.DisplayRotation.class.getName(),
             com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
-            BlacklistSettings.class.getName()
+            BlacklistSettings.class.getName(),
+            ContributorsCloudFragment.class.getName()
     };
 
 
@@ -1263,6 +1267,10 @@ public class SettingsActivity extends Activity
                 } else if (id == R.id.bluetooth_settings) {
                     // Remove Bluetooth Settings if Bluetooth service is not available.
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH)) {
+                        removeTile = true;
+                    }
+                 } else if (id == R.id.mobile_networks) {
+                    if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_TELEPHONY)) {
                         removeTile = true;
                     }
                 } else if (id == R.id.data_usage_settings) {
