@@ -86,10 +86,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
-    private static final String KEY_CM_UPDATES = "cm_updates";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
-
     private static final String KEY_SLIM_OTA = "slimota";
 
     long[] mHits = new long[3];
@@ -135,9 +133,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_DEVICE_MODEL, Build.MODEL);
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
-+        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
-+        findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_MOD_VERSION, "ro.cyanpop.version"); 
+        setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
+        findPreference(KEY_KERNEL_VERSION).setEnabled(true);
+        setValueSummary(KEY_MOD_VERSION, "ro.cyanpop.version");
         findPreference(KEY_MOD_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
 
@@ -152,13 +150,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         // Remove selinux information if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SELINUX_STATUS,
                 PROPERTY_SELINUX_STATUS);
-
-        // Only the owner should see the Updater settings, if it exists
-        if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
-            removePreferenceIfPackageNotInstalled(findPreference(KEY_CM_UPDATES));
-        } else {
-            getPreferenceScreen().removePreference(findPreference(KEY_CM_UPDATES));
-        }
 
         // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SAFETY_LEGAL,
@@ -219,12 +210,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             }
         }
     }
-
-       // Remove update settings if it is not present.
-        mUpdateSettings = (PreferenceScreen) findPreference(KEY_UPDATE_SETTINGS);
-        if (!Utils.isPackageInstalled(getActivity(), KEY_UPDATE_SETTINGS_PACKAGE_NAME)) {
-            getPreferenceScreen().removePreference(mUpdateSettings);
-        }
 
     @Override
     public void onResume() {
@@ -566,6 +551,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 return keys;
             }
 
+
             private boolean isPropertyMissing(String property) {
                 return SystemProperties.get(property).equals("");
             }
@@ -595,4 +581,3 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         return false;
     }
 }
-
