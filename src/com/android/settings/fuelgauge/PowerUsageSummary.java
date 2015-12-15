@@ -523,8 +523,7 @@ public class PowerUsageSummary extends PowerUsageBase
                     if (percentOfTotal < 10) {
                         continue;
                     }
-
-                    if ("user".equals(Build.TYPE) || "userdebug".equals(Build.TYPE)) {
+                    if (!showUnacAndOvercounted) {
                         continue;
                     }
                 }
