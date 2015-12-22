@@ -84,6 +84,13 @@
                  android:summary="@string/device_motorola_motoe_summary"
                  android:selectable="false" />
 
+             <Preference
+                 android:key="device_motorola_motox2014"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_motorola_motox2014"
+                 android:summary="@string/device_motorola_motox2014_summary"
+                 android:selectable="false" />
+
         </PreferenceCategory>
 
         <PreferenceCategory

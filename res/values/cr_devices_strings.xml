@@ -49,6 +49,9 @@
     <string name="device_motorola_motoe">Motorola Moto E</string>
     <string name="device_motorola_motoe_summary">condor \nMaintainer - RolanDroid</string>
 
+    <string name="device_motorola_motox2014">Motorola Moto X 2014</string>
+    <string name="device_motorola_motox2014_summary">victara \nMaintainer - RolanDroid</string>
+
     <!-- Samsung devices -->
     <string name="device_samsung_galaxys3">Samsung Galaxy S3</string>
     <string name="device_samsung_galaxys3_summary">i9300 \nMaintainer - RolanDroid</string>
