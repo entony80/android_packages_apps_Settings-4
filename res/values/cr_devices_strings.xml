@@ -24,6 +24,7 @@
     <string name="device_category_oneplus_title">ONE PLUS</string> -->  
     <string name="device_category_rom_title">ROM DEVELOPER</string>  
     <string name="device_category_motorola_title">MOTOROLA</string>
+    <string name="device_category_samsung_title">SAMSUNG</string>
 
     <!-- Supported Devices and Maintainers -->
     <string name="device_rom_developer">Rom Developer</string>
@@ -44,5 +45,9 @@
 
     <string name="device_motorola_motoe2015">Motorola Moto E 2015</string>
     <string name="device_motorola_motoe2015_summary">otus \nMaintainer - RolanDroid</string>
+
+    <!-- Samsung devices -->
+    <string name="device_samsung_galaxys3">Samsung Galaxy S3</string>
+    <string name="device_samsung_galaxys3_summary">i9300 \nMaintainer - RolanDroid</string>
 
 </resources>
