@@ -42,4 +42,7 @@
     <string name="device_motorola_motog2014lte">Motorola Moto G 2014 LTE</string>
     <string name="device_motorola_motog2014lte_summary">thea \nMaintainer - RolanDroid</string>
 
+    <string name="device_motorola_motoe2015">Motorola Moto E 2015</string>
+    <string name="device_motorola_motoe2015_summary">otus \nMaintainer - RolanDroid</string>
+
 </resources>
