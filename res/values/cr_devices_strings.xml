@@ -28,7 +28,7 @@
 
     <!-- Supported Devices and Maintainers -->
     <string name="device_rom_developer">Rom Developer</string>
-    <string name="device_rom_developer_summary">Rom \nDeveloper - RolanDroid</string>
+    <string name="device_rom_developer_summary"> \nDeveloper - RolanDroid</string>
 
     <!-- Motorola devices -->
     <string name="device_motorola_motog">Motorola Moto G</string>
