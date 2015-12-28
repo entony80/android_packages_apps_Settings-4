@@ -58,6 +58,6 @@
 
     <!-- One Plus -->
     <string name="device_oneplus_one">OnePlusOne</string>
-    <string name="device_samsung_one_summary">Bacon \nMaintainer - RolanDroid</string>
+    <string name="device_oneplus_one_summary">Bacon \nMaintainer - RolanDroid</string>
 
 </resources>
