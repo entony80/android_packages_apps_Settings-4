@@ -118,22 +118,6 @@
                     android:targetClass="com.grarak.kerneladiutor.MainActivity" />
         </dashboard-tile>
 
-        <!-- Sound -->
-        <dashboard-tile
-                android:id="@+id/sound_settings"
-                android:title="@string/category_sounds"
-                android:fragment="com.android.settings.notification.SoundSettings"
-                android:icon="@drawable/ic_settings_sounds"
-                />
-
-        <!-- Display & lights -->
-        <dashboard-tile
-                android:id="@+id/display_and_lights_settings"
-                android:title="@string/display_and_lights"
-                android:fragment="com.android.settings.DisplaySettings"
-                android:icon="@drawable/ic_settings_display"
-                />
-
         <!-- Themes -->
         <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
         <dashboard-tile
@@ -146,12 +130,12 @@
             </intent>
         </dashboard-tile>
 
-        <!-- Notification manager -->
+        <!-- Display & lights -->
         <dashboard-tile
-                android:id="@+id/notification_manager"
-                android:title="@string/notification_manager"
-                android:fragment="com.android.settings.notification.NotificationManagerSettings"
-                android:icon="@drawable/ic_settings_notifications"
+                android:id="@+id/display_and_lights_settings"
+                android:title="@string/display_and_lights"
+                android:fragment="com.android.settings.DisplaySettings"
+                android:icon="@drawable/ic_settings_display"
                 />
 
         <!-- Lock screen -->
@@ -169,6 +153,30 @@
                 android:title="@string/button_pref_title"
                 android:fragment="com.android.settings.ButtonSettings"
                 android:icon="@drawable/ic_settings_buttons"
+                />
+
+        <!-- Sound -->
+        <dashboard-tile
+                android:id="@+id/sound_settings"
+                android:title="@string/category_sounds"
+                android:fragment="com.android.settings.notification.SoundSettings"
+                android:icon="@drawable/ic_settings_sounds"
+                />
+
+        <!-- Battery -->
+        <dashboard-tile
+                android:id="@+id/battery_settings"
+                android:title="@string/power_usage_summary_title"
+                android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+                android:icon="@drawable/ic_settings_battery"
+                />
+
+        <!-- Notification manager -->
+        <dashboard-tile
+                android:id="@+id/notification_manager"
+                android:title="@string/notification_manager"
+                android:fragment="com.android.settings.notification.NotificationManagerSettings"
+                android:icon="@drawable/ic_settings_notifications"
                 />
 
         <!-- O-Click -->
@@ -191,14 +199,6 @@
                     android:targetPackage="com.cyanogenmod.settings.device"
                     android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
         </dashboard-tile>
-
-        <!-- Battery -->
-        <dashboard-tile
-                android:id="@+id/battery_settings"
-                android:title="@string/power_usage_summary_title"
-                android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
-                android:icon="@drawable/ic_settings_battery"
-                />
 
         <!-- Security -->
         <dashboard-tile

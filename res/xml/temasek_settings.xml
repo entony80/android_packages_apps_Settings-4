@@ -19,6 +19,36 @@
     android:title="@string/temasek_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Recent panel settings -->
+    <PreferenceScreen
+         android:key="recents_panel"
+         android:fragment="com.android.settings.temasek.RecentsPanelSettings"
+         android:title="@string/recents_panel_title"/>
+
+    <!-- Gesture anywhere -->
+    <PreferenceScreen
+         android:key="gesture_anywhere"
+         android:fragment="com.android.settings.temasek.gestureanywhere.GestureAnywhereSettings"
+         android:title="@string/gesture_anywhere_title" />
+
+    <!-- Screen and animations -->
+    <PreferenceScreen
+         android:key="screen_and_animations"
+         android:fragment="com.android.settings.temasek.ScreenAndAnimations"
+         android:title="@string/screen_and_animations_title"/>
+
+    <!-- Clock widget -->
+    <PreferenceScreen
+         android:key="lock_clock"
+         android:fragment="com.android.settings.temasek.LockClock"
+         android:title="@string/lock_clock_title" />
+
+    <!-- Lockscreen shortcuts -->
+    <PreferenceScreen
+         android:key="lockscreen_temasek"
+         android:fragment="com.android.settings.temasek.LockScreenSettings"
+         android:title="@string/temasek_lockscreen_title" />
+
     <!-- App circle bar -->
     <PreferenceScreen
          android:key="app_circle_bar"
@@ -30,35 +60,5 @@
          android:key="app_sidebar"
          android:fragment="com.android.settings.temasek.AppSidebar"
          android:title="@string/app_sidebar_title"/>
-
-    <!-- Clock widget -->
-    <PreferenceScreen
-         android:key="lock_clock"
-         android:fragment="com.android.settings.temasek.LockClock"
-         android:title="@string/lock_clock_title" />
-
-    <!-- Gesture anywhere -->
-    <PreferenceScreen
-         android:key="gesture_anywhere"
-         android:fragment="com.android.settings.temasek.gestureanywhere.GestureAnywhereSettings"
-         android:title="@string/gesture_anywhere_title" />
-
-    <!-- Lockscreen shortcuts -->
-    <PreferenceScreen
-         android:key="lockscreen_temasek"
-         android:fragment="com.android.settings.temasek.LockScreenSettings"
-         android:title="@string/temasek_lockscreen_title" />
-
-    <!-- Recent panel settings -->
-    <PreferenceScreen
-         android:key="recents_panel"
-         android:fragment="com.android.settings.temasek.RecentsPanelSettings"
-         android:title="@string/recents_panel_title"/>
-
-    <!-- Screen and animations -->
-    <PreferenceScreen
-         android:key="screen_and_animations"
-         android:fragment="com.android.settings.temasek.ScreenAndAnimations"
-         android:title="@string/screen_and_animations_title"/>
 
 </PreferenceScreen>
