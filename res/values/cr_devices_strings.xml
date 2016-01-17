@@ -57,8 +57,11 @@
     <string name="device_samsung_galaxys3_summary">i9300 \nMaintainer - RolanDroid</string>
 
     <!-- One Plus devices -->
-    <string name="device_oneplus_one">OnePlusOne</string>
+    <string name="device_oneplus_one">OnePlus One</string>
     <string name="device_oneplus_one_summary">Bacon \nMaintainer - RolanDroid</string>
+
+    <string name="device_oneplus_onyx">OnePlus X</string>
+    <string name="device_oneplus_onyx_summary">Onyx \nMaintainer - RolanDroid</string>
 
     <!-- Google devices -->
     <string name="device_google_n5">Google Nexus 5</string>
