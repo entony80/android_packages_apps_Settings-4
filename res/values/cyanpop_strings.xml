@@ -19,6 +19,10 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- About phone screen, CyanPop version -->
+    <string name="cyanpop_version">CyanPop version</string>
+    <string name="cyanpop_version_default">Unknown</string>
+
    <!-- CyanPop Extras -->
     <string name="temasek_settings_title">CyanPop Extras</string>
 

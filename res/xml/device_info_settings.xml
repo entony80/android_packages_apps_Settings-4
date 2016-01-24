@@ -74,11 +74,11 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/device_info_default"/>
 
-        <!-- Mod version -->
-        <Preference android:key="mod_version"
+        <!-- CyanPop version -->
+        <Preference android:key="cyanpop_version"
                 style="?android:preferenceInformationStyle"
-                android:title="@string/mod_version"
-                android:summary="@string/mod_version_default" />
+                android:title="@string/cyanpop_version"
+                android:summary="@string/cyanpop_version_default" />
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"
