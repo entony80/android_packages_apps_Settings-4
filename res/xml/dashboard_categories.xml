@@ -101,9 +101,9 @@
 
         <!-- CyanPop Extras -->
         <dashboard-tile
-                android:id="@+id/temasek_settings"
-                android:title="@string/temasek_settings_title"
-                android:fragment="com.android.settings.temasek.TemasekSettings"
+                android:id="@+id/cyanpop_settings"
+                android:title="@string/cyanpop_settings_title"
+                android:fragment="com.android.settings.cyanpop.CyanpopSettings"
                 android:icon="@drawable/ic_settings_system"
                 />
 

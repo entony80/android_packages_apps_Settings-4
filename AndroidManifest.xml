@@ -2143,7 +2143,7 @@
         <!-- CyanPop Stuff -->
 
         <!-- CyanPop Extras -->
-        <activity android:name="com.android.settings.temasek.extrainfo.MainActivity"
+        <activity android:name="com.android.settings.cyanpop.extrainfo.MainActivity"
                   android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar.MinWidth">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2151,8 +2151,8 @@
         </activity>
 
         <!-- Gesture anywhere -->
-        <activity android:name=".temasek.gestureanywhere.GestureAnywhereBuilderActivity" />
-        <activity android:name=".temasek.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+        <activity android:name=".cyanpop.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".cyanpop.gestureanywhere.GestureAnywhereCreateGestureActivity" />
 
         <!-- PA Pie settings activity. -->
         <activity android:name="Settings$PieControlSettingsActivity"
@@ -2163,7 +2163,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.temasek.PieControl" />
+                android:value="com.android.settings.cyanpop.PieControl" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@id/button_settings" />
         </activity>

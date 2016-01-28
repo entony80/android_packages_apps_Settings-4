@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek.gestureanywhere;
+package com.android.settings.cyanpop.gestureanywhere;
 
 import android.app.Dialog;
 import android.app.ListActivity;

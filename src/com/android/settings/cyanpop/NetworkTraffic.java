@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -46,7 +46,7 @@ import android.util.Log;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 import com.android.internal.logging.MetricsLogger;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;

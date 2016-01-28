@@ -16,7 +16,7 @@
  *
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
@@ -64,7 +64,7 @@ public class OmniSwitch extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.temasek_omniswitch);
+        addPreferencesFromResource(R.xml.cyanpop_omniswitch);
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();

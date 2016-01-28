@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -354,7 +354,7 @@ public class PieColor extends SettingsPreferenceFragment implements OnPreference
                             getOwner().refreshSettings();
                         }
                     })
-                    .setPositiveButton(R.string.reset_temasek,
+                    .setPositiveButton(R.string.reset_cyanpop,
                         new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             Settings.System.putInt(getOwner().mResolver,

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek.fragments;
+package com.android.settings.cyanpop.fragments;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -31,7 +31,7 @@ import android.provider.Settings;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
-import com.android.internal.util.temasek.AwesomeAnimationHelper;
+import com.android.internal.util.cyanpop.AwesomeAnimationHelper;
 
 import java.util.Arrays;
 

@@ -47,7 +47,7 @@
             android:key="aokp_animation"
             android:title="@string/aokp_animation_title"
             android:summary="@string/aokp_animation_summary"
-            android:fragment="com.android.settings.temasek.fragments.AnimationControls" />
+            android:fragment="com.android.settings.cyanpop.fragments.AnimationControls" />
 
         <!-- Toast Icons -->
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference

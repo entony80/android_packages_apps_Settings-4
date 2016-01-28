@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.app.Activity;
 import android.app.AlertDialog;

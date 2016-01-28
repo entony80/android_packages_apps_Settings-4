@@ -24,7 +24,7 @@
     <string name="cyanpop_version_default">Unknown</string>
 
    <!-- CyanPop Extras -->
-    <string name="temasek_settings_title">CyanPop Extras</string>
+    <string name="cyanpop_settings_title">CyanPop Extras</string>
 
     <!-- General strings -->
     <string name="attention">Attention</string>
@@ -35,7 +35,7 @@
     <string name="disabled">Disabled</string>
     <string name="ok">Ok</string>
     <string name="reset_message">Reset all entries to default?</string>
-    <string name="extras_temasek_settings">CyanPop Extras</string>
+    <string name="extras_cyanpop_settings">CyanPop Extras</string>
     <string name="reset_default_message">Reset default</string> 
     <string name="additional_options_title">Additional options</string>
     <string name="general_options_title">General</string> 
@@ -43,7 +43,7 @@
     <string name="quicksettings_title">Quicksettings</string>
     <string name="qs_brightness_slider_title">Show brightness slider</string>
     <string name="statusbar_notifications_title">Notifications</string>
-    <string name="dlg_reset_temasek">CyanPop</string>
+    <string name="dlg_reset_cyanpop">CyanPop</string>
     <string name="cat_colors_title">Customize notification colors</string>
     <string name="colors_title">Customize notification colors</string>	
     <string name="notification_color_settings_title">Notification Colors</string>
@@ -714,10 +714,10 @@
     <string name="youtube">Youtube</string>
     <string name="zedge">Zedge</string>
 
-    <!-- Temasek lockscreen -->
-    <string name="temasek_lockscreen_title">Lockscreen</string>
-    <string name="temasek_lockscreen_category">Lockscreen settings</string>
-    <string name="temasek_lockscreen_shortcuts_category">Shortcuts</string>
+    <!-- CyanPop lockscreen -->
+    <string name="cyanpop_lockscreen_title">Lockscreen</string>
+    <string name="cyanpop_lockscreen_category">Lockscreen settings</string>
+    <string name="cyanpop_lockscreen_shortcuts_category">Shortcuts</string>
     <!-- CM lockscreen shortcuts -->
     <string name="cm_lockscreen_shortcuts_title">Bottom corners shortcuts</string>
     <string name="cm_lockscreen_shortcuts_summary">View or change custom bottom corners lockscreen shortcuts</string>
@@ -927,7 +927,7 @@
     <string name="pa_pie_always_right_title">Pie always on the right</string>
     <string name="pa_pie_always_right_summary">Pie will be always shown on the right while in landscape</string>
 
-    <string name="reset_temasek">CyanPop</string>
+    <string name="reset_cyanpop">CyanPop</string>
     <string name="reset_android">Android</string>
 
     <!-- Doze options -->

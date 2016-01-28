@@ -1,4 +1,4 @@
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 
 import com.android.internal.logging.MetricsLogger;
 

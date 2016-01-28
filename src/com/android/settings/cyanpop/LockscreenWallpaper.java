@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
@@ -31,7 +31,7 @@ import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 
 import com.android.internal.logging.MetricsLogger;
 

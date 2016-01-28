@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -29,7 +29,7 @@ import android.view.View;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 import com.android.settings.Utils;
 
 import com.android.internal.logging.MetricsLogger;

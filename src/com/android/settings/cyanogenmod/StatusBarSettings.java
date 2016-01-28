@@ -51,7 +51,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.Date;

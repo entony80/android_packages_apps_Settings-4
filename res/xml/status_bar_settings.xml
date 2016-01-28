@@ -102,13 +102,13 @@
 
         <PreferenceScreen
             android:key="battery_bar"
-            android:fragment="com.android.settings.temasek.BatteryBar"
+            android:fragment="com.android.settings.cyanpop.BatteryBar"
             android:title="@string/battery_bar" />
 
         <PreferenceScreen
             android:key="status_bar_temperature_style"
             android:title="@string/status_bar_temperature_title"
-            android:fragment="com.android.settings.temasek.StatusBarWeather" />
+            android:fragment="com.android.settings.cyanpop.StatusBarWeather" />
 
         <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
             android:key="status_bar_brightness_control"
@@ -118,13 +118,13 @@
 
         <PreferenceScreen
             android:key="network_traffic_state"
-            android:fragment="com.android.settings.temasek.NetworkTraffic"
+            android:fragment="com.android.settings.cyanpop.NetworkTraffic"
 	    android:summary="@string/network_traffic_summary"
 	    android:title="@string/network_traffic_title" />
 
         <PreferenceScreen
             android:key="carrierlabel"
-            android:fragment="com.android.settings.temasek.CarrierLabel"
+            android:fragment="com.android.settings.cyanpop.CarrierLabel"
             android:title="@string/carrier_options" />
 
         <com.android.settings.cyanogenmod.CMSystemSettingSwitchPreference
@@ -208,7 +208,7 @@
             android:dependency="qs_show_brightness_slider"
             android:defaultValue="true"/>
 
-        <com.android.settings.temasek.SeekBarPreference
+        <com.android.settings.cyanpop.SeekBarPreference
             android:key="qs_transparent_shade"
             android:title="@string/qs_transparent_shade"
             android:max="255"
@@ -217,7 +217,7 @@
             settings:unitsRight=""
             android:persistent="false" />
 
-        <com.android.settings.temasek.SeekBarPreference
+        <com.android.settings.cyanpop.SeekBarPreference
             android:key="qs_transparent_header"
             android:title="@string/qs_transparent_header"
             android:max="255"

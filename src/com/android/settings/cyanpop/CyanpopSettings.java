@@ -1,4 +1,4 @@
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.os.Bundle;
 import android.content.res.Resources;
@@ -11,10 +11,10 @@ import android.provider.Settings;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class TemasekSettings extends SettingsPreferenceFragment implements
+public class CyanpopSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String TAG = "TemasekSettings";
+    private static final String TAG = "CyanpopSettings";
 
     @Override
     protected int getMetricsCategory() {
@@ -24,7 +24,7 @@ public class TemasekSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.temasek_settings);
+        addPreferencesFromResource(R.xml.cyanpop_settings);
     }
 
     @Override

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -35,7 +35,7 @@ import android.view.MenuItem;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.temasek.SeekBarPreference;
+import com.android.settings.cyanpop.SeekBarPreference;
 
 import com.android.internal.logging.MetricsLogger;
 
@@ -98,7 +98,7 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             prefs.removeAll();
         }
 
-        addPreferencesFromResource(R.xml.temasek_lock_screen_weather_settings);
+        addPreferencesFromResource(R.xml.cyanpop_lock_screen_weather_settings);
         mResolver = getActivity().getContentResolver();
 
         boolean showWeather = Settings.System.getInt(mResolver,

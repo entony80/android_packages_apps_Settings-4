@@ -16,49 +16,49 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/temasek_settings_title"
+    android:title="@string/cyanpop_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <!-- Recent panel settings -->
     <PreferenceScreen
          android:key="recents_panel"
-         android:fragment="com.android.settings.temasek.RecentsPanelSettings"
+         android:fragment="com.android.settings.cyanpop.RecentsPanelSettings"
          android:title="@string/recents_panel_title"/>
 
     <!-- Gesture anywhere -->
     <PreferenceScreen
          android:key="gesture_anywhere"
-         android:fragment="com.android.settings.temasek.gestureanywhere.GestureAnywhereSettings"
+         android:fragment="com.android.settings.cyanpop.gestureanywhere.GestureAnywhereSettings"
          android:title="@string/gesture_anywhere_title" />
 
     <!-- Screen and animations -->
     <PreferenceScreen
          android:key="screen_and_animations"
-         android:fragment="com.android.settings.temasek.ScreenAndAnimations"
+         android:fragment="com.android.settings.cyanpop.ScreenAndAnimations"
          android:title="@string/screen_and_animations_title"/>
 
     <!-- Clock widget -->
     <PreferenceScreen
          android:key="lock_clock"
-         android:fragment="com.android.settings.temasek.LockClock"
+         android:fragment="com.android.settings.cyanpop.LockClock"
          android:title="@string/lock_clock_title" />
 
     <!-- Lockscreen shortcuts -->
     <PreferenceScreen
-         android:key="lockscreen_temasek"
-         android:fragment="com.android.settings.temasek.LockScreenSettings"
-         android:title="@string/temasek_lockscreen_title" />
+         android:key="lockscreen_cyanpop"
+         android:fragment="com.android.settings.cyanpop.LockScreenSettings"
+         android:title="@string/cyanpop_lockscreen_title" />
 
     <!-- App circle bar -->
     <PreferenceScreen
          android:key="app_circle_bar"
-         android:fragment="com.android.settings.temasek.AppCircleBar"
+         android:fragment="com.android.settings.cyanpop.AppCircleBar"
          android:title="@string/app_circle_bar_title"/>
 
     <!-- App sidebar -->
     <PreferenceScreen
          android:key="app_sidebar"
-         android:fragment="com.android.settings.temasek.AppSidebar"
+         android:fragment="com.android.settings.cyanpop.AppSidebar"
          android:title="@string/app_sidebar_title"/>
 
 </PreferenceScreen>

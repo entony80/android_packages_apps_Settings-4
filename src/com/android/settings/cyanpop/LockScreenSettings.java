@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.cyanpop;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -47,7 +47,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements On
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.temasek_lockscreen);
+        addPreferencesFromResource(R.xml.cyanpop_lockscreen);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
