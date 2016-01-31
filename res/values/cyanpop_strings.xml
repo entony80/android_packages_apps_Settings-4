@@ -96,7 +96,7 @@
     <string name="listview_bounce_interpolator">Bounce</string>
 
     <!-- CyanPop OTA -->
-    <string name="slimota_title">CyanPop Updates</string>
+    <string name="slimota_title">System Updates</string>
 
     <!-- About CyanPop -->
     <string name="about_crdroid">About CyanPop</string>
