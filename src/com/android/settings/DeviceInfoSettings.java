@@ -83,7 +83,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
-    private static final String KEY_SLIM_OTA = "slimota";
+    private static final String KEY_CYANPOP_OTA = "cyanpopota";
 
     long[] mHits = new long[3];
     int mDevHitCountdown;
