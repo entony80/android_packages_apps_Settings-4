@@ -60,11 +60,17 @@
     <string name="device_oneplus_one">OnePlus One</string>
     <string name="device_oneplus_one_summary">Bacon \nMaintainer - RolanDroid</string>
 
+    <string name="device_oneplus_2">OnePlus Two</string>
+    <string name="device_oneplus_2_summary">Oneplus2 \nMaintainer - Trafalgar Square,Taker18</string>
+
     <string name="device_oneplus_onyx">OnePlus X</string>
     <string name="device_oneplus_onyx_summary">Onyx \nMaintainer - RolanDroid</string>
 
     <!-- Google devices -->
     <string name="device_google_n5">Google Nexus 5</string>
-    <string name="device_google_n5_summary">hammerhead \nMaintainer - RolanDroid</string>
+    <string name="device_google_n5_summary">Hammerhead \nMaintainer - RolanDroid</string>
+
+    <string name="device_google_n6">Google Nexus 6</string>
+    <string name="device_google_n6_summary">Shamu \nMaintainer - RolanDroid</string>
 
 </resources>

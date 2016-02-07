@@ -117,6 +117,13 @@
                  android:selectable="false" />
 
              <Preference
+                 android:key="device_oneplus_2"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_oneplus_2"
+                 android:summary="@string/device_oneplus_2_summary"
+                 android:selectable="false" />
+
+             <Preference
                  android:key="device_oneplus_onyx"
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_oneplus_onyx"
@@ -133,6 +140,13 @@
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_google_n5"
                  android:summary="@string/device_google_n5_summary"
+                 android:selectable="false" />
+
+             <Preference
+                 android:key="device_google_n6"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_google_n6"
+                 android:summary="@string/device_google_n6_summary"
                  android:selectable="false" />
         </PreferenceCategory>
 
