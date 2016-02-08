@@ -151,9 +151,9 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         // Only the owner should see the Updater settings, if it exists
         if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
-            removePreferenceIfPackageNotInstalled(findPreference(KEY_SLIM_OTA));
+            removePreferenceIfPackageNotInstalled(findPreference(KEY_CYANPOP_OTA));
         } else {
-            getPreferenceScreen().removePreference(findPreference(KEY_SLIM_OTA));
+            getPreferenceScreen().removePreference(findPreference(KEY_CYANPOP_OTA));
         }
 
         // Remove Equipment id preference if FCC ID is not set by RIL
