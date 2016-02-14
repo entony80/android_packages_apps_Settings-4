@@ -23,12 +23,6 @@
                           android:enabled="false"
                           android:layout="@layout/cyanpop_logo_row" />
 
-    <!-- Recent panel settings -->
-    <PreferenceScreen
-         android:key="recents_panel"
-         android:fragment="com.android.settings.cyanpop.RecentsPanelSettings"
-         android:title="@string/recents_panel_title"/>
-
     <!-- Gesture anywhere -->
     <PreferenceScreen
          android:key="gesture_anywhere"
@@ -41,17 +35,23 @@
          android:fragment="com.android.settings.cyanpop.ScreenAndAnimations"
          android:title="@string/screen_and_animations_title"/>
 
-    <!-- Clock widget -->
+    <!-- Recent panel settings -->
     <PreferenceScreen
-         android:key="lock_clock"
-         android:fragment="com.android.settings.cyanpop.LockClock"
-         android:title="@string/lock_clock_title" />
+         android:key="recents_panel"
+         android:fragment="com.android.settings.cyanpop.RecentsPanelSettings"
+         android:title="@string/recents_panel_title"/>
 
     <!-- Lockscreen shortcuts -->
     <PreferenceScreen
          android:key="lockscreen_cyanpop"
          android:fragment="com.android.settings.cyanpop.LockScreenSettings"
          android:title="@string/cyanpop_lockscreen_title" />
+
+    <!-- Clock widget -->
+    <PreferenceScreen
+         android:key="lock_clock"
+         android:fragment="com.android.settings.cyanpop.LockClock"
+         android:title="@string/lock_clock_title" />
 
     <!-- App circle bar -->
     <PreferenceScreen
