@@ -70,6 +70,9 @@
     <string name="device_google_n5">Google Nexus 5</string>
     <string name="device_google_n5_summary">Hammerhead \nMaintainer - RolanDroid</string>
 
+    <string name="device_google_n5x">Google Nexus 5X</string>
+    <string name="device_google_n5x_summary">Bullhead \nMaintainer - RolanDroid</string>
+
     <string name="device_google_n6">Google Nexus 6</string>
     <string name="device_google_n6_summary">Shamu \nMaintainer - RolanDroid</string>
 

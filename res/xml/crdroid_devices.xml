@@ -143,6 +143,13 @@
                  android:selectable="false" />
 
              <Preference
+                 android:key="device_google_n5x"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_google_n5x"
+                 android:summary="@string/device_google_n5x_summary"
+                 android:selectable="false" />
+
+             <Preference
                  android:key="device_google_n6"
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_google_n6"
