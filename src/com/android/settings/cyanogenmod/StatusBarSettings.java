@@ -531,7 +531,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
              int smartPulldown = Integer.valueOf((String) newValue);
              Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
              updateSmartPulldownSummary(smartPulldown);
-             return true
+             return true;
         } else if (preference == mNumColumns) {
              int numColumns = Integer.valueOf((String) newValue);
              Settings.System.putIntForUser(resolver, Settings.System.QS_NUM_TILE_COLUMNS,
