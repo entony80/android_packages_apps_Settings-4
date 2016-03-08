@@ -257,25 +257,12 @@ public class SecuritySettings extends SettingsPreferenceFragment
         // Add options for device encryption
         mIsPrimary = MY_USER_ID == UserHandle.USER_OWNER;
 
-        if (mFilterType == TYPE_LOCKSCREEN_EXTRA || mFilterType == TYPE_EXTERNAL_RESOLUTION) {
-
-        if (CMSettings.Secure.getIntForUser(getContentResolver(),
-                CMSettings.Secure.LOCKSCREEN_INTERNALLY_ENABLED, 1, UserHandle.USER_OWNER) != 1) {
-            // lock screen is disabled by quick settings tile, let the user know!~
-            mLockscreenDisabledPreference = new Preference(getActivity());
-            mLockscreenDisabledPreference.setKey(KEY_LOCKSCREEN_ENABLED_INTERNAL);
-            mLockscreenDisabledPreference.setTitle(R.string.lockscreen_disabled_by_qs_tile_title);
-            mLockscreenDisabledPreference.setSummary(R.string.lockscreen_disabled_by_qs_tile_summary);
-            root.addPreference(mLockscreenDisabledPreference);
-        }
-
         final boolean securityOrExternal = mFilterType == TYPE_SECURITY_EXTRA
                 || mFilterType == TYPE_EXTERNAL_RESOLUTION;
         final boolean lockscreenOrExternal = mFilterType == TYPE_LOCKSCREEN_EXTRA
                 || mFilterType == TYPE_EXTERNAL_RESOLUTION;
 
         if (lockscreenOrExternal) {
-
             // Add options for lock/unlock screen
             final int resid = getResIdForLockUnlockScreen(getActivity(), mLockPatternUtils);
             addPreferencesFromResource(resid);
