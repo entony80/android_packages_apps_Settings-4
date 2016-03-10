@@ -59,10 +59,5 @@
          android:fragment="com.android.settings.cyanpop.AppCircleBar"
          android:title="@string/app_circle_bar_title"/>
 
-    <!-- App sidebar -->
-    <PreferenceScreen
-         android:key="app_sidebar"
-         android:fragment="com.android.settings.cyanpop.AppSidebar"
-         android:title="@string/app_sidebar_title"/>
 
 </PreferenceScreen>
