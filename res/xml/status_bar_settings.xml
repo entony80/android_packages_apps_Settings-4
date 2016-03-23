@@ -190,7 +190,7 @@
             android:entryValues="@array/custom_header_values"
             android:dependency="status_bar_custom_header"/>
 
-        <com.android.settings.temasek.SeekBarPreference
+        <com.android.settings.cyanpop.SeekBarPreference
             android:key="status_bar_custom_header_shadow"
             android:title="@string/status_bar_custom_header_shadow_title"
             android:summary="@string/status_bar_custom_header_shadow_summary"
