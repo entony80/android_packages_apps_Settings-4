@@ -341,7 +341,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Nascondi automaticamente</string>
-    <string name="network_traffic_autohide_summary">Nascondere il traffico rete quando non c'è attività</string>
+    <string name="network_traffic_autohide_summary">Nascondere il traffico rete quando non c\'è attività</string>
     <string name="network_traffic_hidearrow">Nascondi frecce</string>
     <string name="network_traffic_hidearrow_summary">Nascondere le frecce degli indicatori di traffico</string>
     <string name="network_traffic_autohide_threshold">Soglia di inattività</string>
@@ -409,7 +409,7 @@
     <string name="weather_show_timestamp_title">Mostra timestamp</string>
     <string name="weather_show_timestamp_summary">Abilitare per mostrare il timestamp</string>
     <string name="weather_condition_icon_title">Icona Condizione</string>
-    <string name="weather_condition_icon_dlg_title">Scegliere un'icona per visualizzare le condizioni meteo</string>
+    <string name="weather_condition_icon_dlg_title">Scegliere un\'icona per visualizzare le condizioni meteo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromo</string>
     <string name="weather_condition_icon_colored_title">Colorato</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
@@ -806,7 +806,7 @@
     <string name="trigger_top_title">Posizione di zona</string>
     <string name="trigger_top_summary">Regolare la postion verticale della zona di innesco</string>
     <string name="trigger_bottom_title">Altezza zona</string>
-    <string name="trigger_bottom_summary">Regolare l'altezza della zona di innesco</string>
+    <string name="trigger_bottom_summary">Regolare l\'altezza della zona di innesco</string>
 
     <!-- Scrolling Cache -->
     <string name="pref_scrollingcache_title">Cache di scorrimento</string>
@@ -867,7 +867,6 @@
     <string name="pa_pie_size_title">Pie Size</string>
     <string name="pa_pie_size_summary">Definire Pie dimensioni controlli</string>
     <string name="pa_pie_size_small">Piccolo</string>
-    <string name="pa_pie_size_default">@String/pa_pie_mode_default</string>
     <string name="pa_pie_size_large">Grande</string>
     <string name="pa_pie_size_gigantic">Gigantesco</string>
     <string name="pa_pie_size_monster">Mostro</string>
