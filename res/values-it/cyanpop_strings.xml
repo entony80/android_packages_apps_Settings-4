@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2015/2016 THE CYANPOP PROJECT
      
 	 Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -43,13 +43,13 @@
     <string name="quicksettings_title">Impostazioni rapide</string>
     <string name="qs_brightness_slider_title">Mostra cursore della luminosità</string>
     <string name="statusbar_notifications_title">Notifiche</string>
-	<string name="dlg_reset_cyanpop">CyanPop</string>
+    <string name="dlg_reset_cyanpop">CyanPop</string>
     <string name="cat_colors_title">Personalizza i colori di notifica</string>
     <string name="cancel">Annulla</string>
-	<string name="colors_title">Personalizza i colori di notifica</string>
-	<string name="notification_color_settings_title">Colori di notifica</string>
-	<string name="dlg_reset_android">Ripristina</string>
-	<string name="dlg_reset_values_message">Riporta alle condizioni originali</string>
+    <string name="colors_title">Personalizza i colori di notifica</string>
+    <string name="notification_color_settings_title">Colori di notifica</string>
+    <string name="dlg_reset_android">Ripristina</string>
+    <string name="dlg_reset_values_message">Riporta alle condizioni originali</string>
 
   <!-- Toast animations -->
     <string name="toast_animation_title">Animazioni Toast</string>
@@ -97,10 +97,10 @@
     <string name="listview_bounce_interpolator">Rimbalzo</string>
 	
 	<!-- CyanPop OTA -->
-    <string name="cyanpopota_title">Aggiornamento OTA</string>
+    <string name="cyanpopota_title">Aggiornamenti OTA</string>
 	
 	<!-- About CyanPop -->
-    <string name="about_crdroid">A proposito di CyanPop</string>
+    <string name="about_crdroid">Informazioni su CyanPop</string>
 	
 	<!-- Share CyanPop -->
     <string name="share_crdroid_title">Condividere CyanPop</string>
@@ -483,8 +483,8 @@
     <string name="lock_clock_calendar_section_summary">Visualizza o cambia la visualizzazione del widget calendario</string>
 
     <!-- Gesture Anywhere -->
-    <string name="gesture_anywhere_title">Gesto ovunque</string>
-    <string name="gesture_anywhere_enabled_title">Gesto ovunque</string>
+    <string name="gesture_anywhere_title">Gesture Anywhere</string>
+    <string name="gesture_anywhere_enabled_title">Gesture Anywhere</string>
     <string name="gesture_anywhere_enabled_summary">Abilitare il gesto in primo piano ovunque</string>
     <string name="gesture_anywhere_position_title">Posizione</string>
     <string name="gesture_anywhere_position_left">Bordo sinistro</string>
