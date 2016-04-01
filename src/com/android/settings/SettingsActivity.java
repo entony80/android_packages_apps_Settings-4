@@ -1330,7 +1330,6 @@ public class SettingsActivity extends Activity
                     }
                 }
 
-                } 
                 if (UserHandle.MU_ENABLED && UserHandle.myUserId() != 0
                         && !ArrayUtils.contains(SETTINGS_FOR_RESTRICTED, id)) {
                     removeTile = true;
@@ -1344,7 +1343,6 @@ public class SettingsActivity extends Activity
         }
         addExternalTiles(target);
     }
-
     private void addExternalTiles(List<DashboardCategory> target) {
         Map<Pair<String, String>, DashboardTile> addedCache =
                 new ArrayMap<Pair<String, String>, DashboardTile>();
