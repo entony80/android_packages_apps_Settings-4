@@ -518,7 +518,7 @@
     <!-- Noun, menu item used to edit a gesture -->
     <string name="ga_gestures_edit">Modifica</string>
     <!-- Noun, menu item used to remove a gesture -->
-    <string name="ga_gestures_delete">Cancellare</string>
+    <string name="ga_gestures_delete">Cancella</string>
     <!-- Message displayed when a gesture is successfully deleted -->
     <string name="ga_gestures_delete_success">Gesto cancellato</string>
     <!-- Title of dialog box -->
@@ -558,27 +558,27 @@
 
     <!-- Slim DSLV -->
     <string name="shortcut_action_none">Nessuna</string>
-    <string name="shortcut_action_longpress">Premere a lungo:</string>
-    <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolungata:</string>
-    <string name="shortcut_action_select_action">Scegli azione:</string>
-    <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
+    <string name="shortcut_action_longpress">Pressione prolungata:</string>
+    <string name="shortcut_action_select_action_longpress">cegliere un\'azione della pressione prolungata:</string>
+    <string name="shortcut_action_select_action">Scegliere un\'azione:</string>
+    <string name="shortcut_action_select_action_newaction">Scegli una nuova azione:</string>
     <string name="shortcut_action_reset">Ripristina</string>
     <string name="shortcut_action_add">Aggiungere</string>
-    <string name="shortcut_action_reset_message">Ripristina tutte le voci di default?</string>
-    <string name="shortcut_action_max">Dimensioni massime sono state raggiunte</string>
+    <string name="shortcut_action_reset_message">Ripristina tutte le voci predefinite?</string>
+    <string name="shortcut_action_max">Le dimensioni massime sono state raggiunte</string>
     <string name="shortcut_action_warning">Avvertimento</string>
-    <string name="shortcut_action_warning_message">Non è possibile eliminare ultima voce</string>
-    <string name="shortcut_action_disable_message">Disabilita\nAggiungi una voce per attivare questa funzione</string>
-    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha restituito l\'icona valida o non supporta ritaglio immagine. Utilizzare un\'altra applicazione.</string>
-    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunto due volte</string>
+    <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
+    <string name="shortcut_action_disable_message">Disabilita\Aggiungi una voce per attivare questa funzione</string>
+    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha restituito l\'icona valida o non supporta il ritaglio dell\'immagine. Utilizzare un\'altra applicazione.</string>
+    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
     <string name="shortcut_action_help_shortcut">Scorciatoia</string>
     <string name="shortcut_action_help_button">Pulsante</string>
     <string name="shortcut_action_help_app">App</string>
-    <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono possibilità  di personalizzazione</string>	
+    <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono le possibilità di personalizzazione</string>	
 
-	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\nper rimuovere un %1$s , strisciare la fila orizzontale verso sinistra o destra. Re-ordine a %1$s nella lista trascinando verticalmente l\'ancora a sinistra.\n\nPer trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
-    <string name="shortcut_action_help_delete_last_entry">Rimozione di ogni %1$s nella lista si disattierà la funzione del tutto.</string>
-    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimozione di ogni %1$s nella lista disabiliterà il secondo strato di torta del tutto.</string>
+	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\n per rimuovere un %1$s , strisciare la fila orizzontale verso sinistra o destra. Riordina a %1$s nella lista trascinando verticalmente l\'ancora a sinistra.\n\n Per trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
+    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s nell\'elenco verrà disattivata la funzione completamente.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La rimozione di ogni %1$ s nell\'elenco disattiverà il secondo strato di torta interamente.</string>
    
     <string name="shortcuts_applications">Applicazioni</string>
     <string name="shortcuts_select_custom_app_title">Selezionare un\'applicazione personalizzata</string>
@@ -789,8 +789,8 @@
     <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono possibilità  di personalizzazione</string>
 
     <string name="shortcut_action_help_main">Per aggiungere un %1$s , selezionare l\'icona Aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà  l\'obiettivo %2$s\n\n per rimuovere un %1$s, strisciare la fila orizzontale verso sinistra o destra. Re-ordine a %1$s nella lista trascinando verticalmente l\'ancora a sinistra. \n\n per trasparente o ripristinare le impostazioni, selezionare l\'opzione di ripristino.</string>
-    <string name="shortcut_action_help_delete_last_entry">Rimozione di ogni %1$s nella lista si disattivare la funzione del tutto.</string>
-    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimozione di ogni %1$s nella lista disabiliterà  il secondo strato di torta del tutto.</string>
+    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s nell\'elenco verrà disattivata la funzione completamente.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La rimozione di ogni %1$ s nell\'elenco disattiverà il secondo strato di torta interamente.</string>
     
 	<!-- Restart SystemUI -->
     <string name="restart_systemui">Riavvia SystemUI</string>
