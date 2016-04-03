@@ -73,7 +73,7 @@
 
 	<!-- ListView animation -->
     <string name="interface_settings_animation_title">Opzioni di animazione</string>
-    <string name="listview_animation_title">Animazione elenco</string>
+    <string name="listview_animation_title">Animazione lista</string>
     <string name="listview_off">Predefinito</string>
     <string name="listview_wave_left">Onda (da sinistra)</string>
     <string name="listview_wave_right">Onda (da destra)</string>
@@ -181,12 +181,12 @@
     <!-- OmniSwitch -->
     <string name="other_recents_category">OmniSwitch</string>
     <string name="omniswitch_settings_title">OmniSwitch</string>
-    <string name="recents_use_omniswitch_title">Utilizzare OmniSwitch come recenti</string>
+    <string name="recents_use_omniswitch_title">Abilita OmniSwitch come recenti</string>
     <string name="recents_use_omniswitch_summary">Utilizzare OmniSwitch invece di visualizzare il pannello recenti come predefinito</string>
     <string name="omniswitch_start_settings_title">Impostazioni</string>
     <string name="omniswitch_start_settings_summary">Apri le impostazioni di OmniSwitch</string>
     <string name="omniswitch_first_time_title">Informazioni</string>
-    <string name="omniswitch_first_time_message">Assicurarsi di aver abilitato OmniSwitch. È possibile farlo utilizzando sotto \"Impostazioni\"</string>
+    <string name="omniswitch_first_time_message">Assicurarsi di aver abilitato OmniSwitch. È possibile farlo utilizzando sotto le \"Impostazioni\"</string>
 
     <!-- Toast Icons -->
     <string name="toast_icon_title">Icona Toast</string>
@@ -237,8 +237,8 @@
     <string name="clock_font_notoserif_italic">NotoSerif italica</string>
     <string name="clock_font_notoserif_bold">NotoSerif Bold</string>
     <string name="clock_font_notoserif_bold_italic">NotoSerif grassetto corsivo</string>
-    <string name="clock_font_size_title">Dimensione del font</string>
-    <string name="status_bar_show_clock_second_title">Mostra i secondi</string>
+    <string name="clock_font_size_title">Dimensione del carattere</string>
+    <string name="status_bar_show_clock_second_title">Secondi nell\'orologio</string>
     <string name="clock_font_size_4">4</string>
     <string name="clock_font_size_5">5</string>
     <string name="clock_font_size_6">6</string>
@@ -317,9 +317,9 @@
     <!-- Status bar header -->
     <string name="status_bar_header_title">Intestazione Barra di stato</string>
     <string name="status_bar_header_font_style_title">Stile del carattere intestazione</string>
-    <string name="status_bar_custom_header_title">Immagine di testata personalizzato</string>
-    <string name="status_bar_custom_header_summary">Immagine di testata pannello notifica abilita</string>
-    <string name="status_bar_custom_header_default_title">Selezionare le immagini</string>
+    <string name="status_bar_custom_header_title">Immagine di intestazione personalizzata</string>
+    <string name="status_bar_custom_header_summary">Abilita un\'immagine di intestazione nel pannello di notifica</string>
+    <string name="status_bar_custom_header_default_title">Seleziona un\'immagine</string>
     <string name="custom_header_image_0">Predefinito</string>
     <string name="custom_header_image_1">Moderno</string>
     <string name="custom_header_image_2">Poly HD</string>
@@ -354,10 +354,10 @@
     <string name="battery_not_title">Icona della batteria nelle notifiche</string>
     <string name="battery_not_summary">Icona della batteria mostrerà dove il pulsante cancella tutto si presenta</string>
     <string name="battery_bar_location">Posizione barra batteria</string>
-    <string name="battery_bar_color">Colore della barra della batteria</string>
-    <string name="battery_bar">Opzioni barra della batteria</string>
+    <string name="battery_bar_color">Colore della barra batteria</string>
+    <string name="battery_bar">Opzioni barra batteria</string>
     <string name="battery_bar_style_title">Stile barra batteria</string>
-    <string name="battery_bar_thickness_title">Spessore barra della batteria</string>
+    <string name="battery_bar_thickness_title">Spessore barra batteria</string>
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
     <string name="battery_bar_animate_summary">L\'animazione di ricarica può tradursi in una scarsa esperienza degli utenti. Attiva a propria discrezione.</string>
 
@@ -404,17 +404,17 @@
     <string name="lock_screen_weather_settings_title">Meteo nella schermata di blocco</string>
     <string name="weather_show_weather_title">Visualizza Meteo</string>
     <string name="weather_show_weather_summary">Attiva per mostrare informazioni meteo</string>
-    <string name="weather_show_location_title">Mostra localizzazione</string>
+    <string name="weather_show_location_title">Mostra posizione</string>
     <string name="weather_show_location_summary">Attiva per mostrare la posizione</string>
     <string name="weather_show_timestamp_title">Mostra timestamp</string>
     <string name="weather_show_timestamp_summary">Abilitare per mostrare il timestamp</string>
-    <string name="weather_condition_icon_title">Icona Condizione</string>
+    <string name="weather_condition_icon_title">Icona condizioni</string>
     <string name="weather_condition_icon_dlg_title">Scegliere un\'icona per visualizzare le condizioni meteo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromo</string>
     <string name="weather_condition_icon_colored_title">Colorato</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
     <string name="weather_colorize_all_icons_title">Colora tutte le icone</string>
-    <string name="weather_colorize_all_icons_summary">Attiva per colorare tutte le icone, disabilitare per colorare solo le icone monocromatiche</string>
+    <string name="weather_colorize_all_icons_summary">Attivare per colorare tutte le icone, disabilitare per colorare solo le icone monocromatiche</string>
     <string name="icons_title">Icone</string>
     <string name="position_right_title">Destra</string>
     <string name="position_centered_title">Centrato</string>
@@ -484,12 +484,12 @@
 
     <!-- Gesture Anywhere -->
     <string name="gesture_anywhere_title">Gesti ovunque</string>
-    <string name="gesture_anywhere_enabled_title">Gesti ovunque</string>
-    <string name="gesture_anywhere_enabled_summary">Abilitare il gesto in primo piano ovunque</string>
+    <string name="gesture_anywhere_enabled_title">Abilita gesti ovunque</string>
+    <string name="gesture_anywhere_enabled_summary">Abilita il gesto in primo piano ovunque</string>
     <string name="gesture_anywhere_position_title">Posizione attivazione</string>
     <string name="gesture_anywhere_position_left">Bordo sinistro</string>
     <string name="gesture_anywhere_position_right">Bordo destro</string>
-    <string name="gesture_anywhere_gestures_title">Mimica</string>
+    <string name="gesture_anywhere_gestures_title">Gesti</string>
     <string name="gesture_anywhere_gestures_summary">Aggiungere, rimuovere e modificare i gesti</string>
     <!-- Label, button used to add a gesture -->
     <string name="ga_button_add">Aggiungi gesto</string>
@@ -576,8 +576,8 @@
     <string name="shortcut_action_help_app">App</string>
     <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono le possibilità di personalizzazione</string>	
 
-	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\n per rimuovere un %1$s , strisciare la fila orizzontale verso sinistra o destra. Riordina a %1$s nella lista trascinando verticalmente l\'ancora a sinistra.\n\n Per trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
-    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s nell\'elenco verrà disattivata la funzione completamente.</string>
+	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\n per rimuovere un %1$s, striscia la fila orizzontale verso sinistra o destra. Riordina il %1$s nella lista trascinando verticalmente ancora a sinistra.\n\n Per trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
+    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s dall\'elenco la funzione verrà disattivata completamente.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La rimozione di ogni %1$ s nell\'elenco disattiverà il secondo strato di torta interamente.</string>
    
     <string name="shortcuts_applications">Applicazioni</string>
@@ -788,8 +788,8 @@
     <string name="shortcut_action_help_app">App</string>
     <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono possibilità  di personalizzazione</string>
 
-    <string name="shortcut_action_help_main">Per aggiungere un %1$s , selezionare l\'icona Aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà  l\'obiettivo %2$s\n\n per rimuovere un %1$s, strisciare la fila orizzontale verso sinistra o destra. Re-ordine a %1$s nella lista trascinando verticalmente l\'ancora a sinistra. \n\n per trasparente o ripristinare le impostazioni, selezionare l\'opzione di ripristino.</string>
-    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s nell\'elenco verrà disattivata la funzione completamente.</string>
+    <string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona Aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà  l\'obiettivo %2$s\n\n per rimuovere un %1$s, strisciare la fila orizzontale verso sinistra o destra. Riordina il %1$s nella lista trascinando verticalmente ancora a sinistra. \n\n per trasparente o ripristinare le impostazioni, selezionare l\'opzione di ripristino.</string>
+    <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s dall\'elenco la funzione verrà disattivata completamente.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La rimozione di ogni %1$ s nell\'elenco disattiverà il secondo strato di torta interamente.</string>
     
 	<!-- Restart SystemUI -->
@@ -797,10 +797,10 @@
 
     <!-- App Circle sidebar -->
     <string name="category_app_circle_bar_title">App launcher</string>
-    <string name="app_circle_bar_title">App Circle Bar</string>
-    <string name="app_circle_bar_summary">Mostra il cerchio e avvia le applicazioni dopo aver toccato lato destro dello schermo</string>
+    <string name="app_circle_bar_title">Abilta App Circle Bar</string>
+    <string name="app_circle_bar_summary">Mostra il cerchio e avvia le applicazioni dopo aver toccato il lato destro dello schermo</string>
     <string name="app_circle_bar_included_apps_title">Applicazioni incluse</string>
-    <string name="app_circle_bar_included_apps_summary">Le applicazioni che si mostreranno in App Circle Bar</string>
+    <string name="app_circle_bar_included_apps_summary">Le applicazioni che verranno mostrate in App Circle Bar</string>
     <string name="trigger_width_title">Larghezza</string>
     <string name="trigger_width_summary">Regolare la larghezza della zona di attivazione</string>
     <string name="trigger_top_title">Verticale</string>
@@ -858,10 +858,10 @@
 
     <!-- PA Pie control -->
     <string name="pa_piecontrol_settings_summary">Personalizzare PA Pie 2.0 controlli, stile, dimensione e colore</string>
-    <string name="pa_pie_control_title">PA Pie controllo</string>
+    <string name="pa_pie_control_title">Pie controllo</string>
     <string name="pa_pie_control_enable_title">Abilita Pie controllo</string>
     <string name="pa_pie_targets_title">Obiettivi Pie</string>
-    <string name="pa_pie_style_title">Pie Style</string>
+    <string name="pa_pie_style_title">Stile Pie</string>
     <string name="pa_pie_menu_title">Mostra sempre il pulsante del menù</string>
     <string name="pa_pie_menu_summary">Il tasto menù dovrebbe essere sempre indicato, anche quando non necessario</string>
     <string name="pa_pie_size_title">Dimensioni Pie</string>
@@ -890,7 +890,7 @@
     <string name="pa_pie_gap_small">Piccolo</string>
     <string name="pa_pie_gap_big">Grande (predefinito)</string>
     <string name="pa_pie_gap_huge">Enorme</string>
-    <string name="pa_pie_mode_title">Pie Style</string>
+    <string name="pa_pie_mode_title">Modalità Pie</string>
     <string name="pa_pie_mode_summary">Gestire la modalità di animazione e la velocità di avvio</string>
     <string name="pa_pie_mode_bare">Velocissimo</string>
     <string name="pa_pie_mode_quick">Veloce</string>
@@ -898,23 +898,23 @@
     <string name="pa_pie_mode_slow">Lento</string>
     <string name="pa_pie_lastapp_title">Ultima App</string>
     <string name="pa_pie_lastapp_summary">Abilita il pulsante ultima App</string>
-    <string name="pa_pie_killtask_title">Uccidi Task</string>
+    <string name="pa_pie_killtask_title">Termina App</string>
     <string name="pa_pie_killtask_summary">Abilita il pulsante termina App</string>
     <string name="pa_pie_notifications_title">Notifiche</string>
-    <string name="pa_pie_notifications_summary">Pulsante notifiche Attiva</string>
+    <string name="pa_pie_notifications_summary">Pulsante notifiche attivo</string>
     <string name="pa_pie_settings_panel_title">Pannello impostazioni rapide</string>
-    <string name="pa_pie_settings_panel_summary">Abilita per espandere le impostazioni rapide dal tasto del pannello</string>
+    <string name="pa_pie_settings_panel_summary">Abilita per espandere le impostazioni rapide dal tasto del pannello Pie</string>
     <string name="pa_pie_screenshot_title">Immagine dello schermo</string>
     <string name="pa_pie_screenshot_summary">Abilita il pulsante per lo screenshot</string>
     <string name="pa_pie_color_title">Impostazioni colore Pie</string>
-    <string name="pa_pie_color_style_title">Stile Pie</string>
+    <string name="pa_pie_color_style_title">Abilita colori Pie</string>
     <string name="pa_pie_background_title">Colore di sfondo</string>
-    <string name="pa_pie_select_title">Selezione colore</string>
-    <string name="pa_pie_outlines_title">Contorno di colore</string>
-    <string name="pa_pie_status_clock_title">Colore Clock</string>
-    <string name="pa_pie_status_title">Colore Stato</string>
-    <string name="pa_pie_chevron_title">Chevron colori</string>
-    <string name="pa_pie_juice_title">Juice Batteria colori</string>
+    <string name="pa_pie_select_title">Colore pulsanti</string>
+    <string name="pa_pie_outlines_title">Colore contorno pulsanti</string>
+    <string name="pa_pie_status_clock_title">Colore orologio</string>
+    <string name="pa_pie_status_title">Colore info</string>
+    <string name="pa_pie_chevron_title">Colore bordo esterno</string>
+    <string name="pa_pie_juice_title">Colore batteria</string>
     <string name="pa_pie_button_color">Colore pulsante</string>
     <string name="pa_pie_button_color_title">Colore pulsanti</string>
     <string name="pa_pie_always_right_title">Pie sempre sulla destra</string>
@@ -927,7 +927,7 @@
     <string name="display_category_doze_options_title">Display ambiente</string>
     <string name="doze_settings_title">Opzioni avanzate Doze</string>
     <string name="doze_timeout_title">Tempo di impulso doze</string>
-    <string name="doze_timeout_summary">Il tempo dello schermo che rimane acceso per impulso di notifica</string>
+    <string name="doze_timeout_summary">È il tempo dello schermo che rimane acceso per impulso di notifica</string>
     <string name="doze_trigger_pickup_title">Scegliere un gesto di avvio</string>
     <string name="doze_trigger_pickup_summary_on">Doze sarà attivato dal gesto evento del sensore</string>
     <string name="doze_trigger_pickup_summary_off">Pick up sensore gesto non sarà  utilizzato come un meccanismo di attivazione</string>
@@ -935,10 +935,10 @@
     <string name="doze_trigger_sigmotion_summary_on">Doze sarà attivato dagli eventi del sensore di movimento significativo</string>
     <string name="doze_trigger_sigmotion_summary_off">Sensore di movimento significativo non sarà utilizzato come un meccanismo di attivazione</string>
     <string name="doze_trigger_notification_title">Avvio notifica</string>
-    <string name="doze_trigger_notification_summary_on">Doze sarà attivato da notifiche</string>
+    <string name="doze_trigger_notification_summary_on">Doze sarà attivato dalle notifiche</string>
     <string name="doze_trigger_notification_summary_off">Le notifiche non saranno utilizzati come obbiettivo</string>
     <string name="doze_schedule_title">Programma di doze</string>
-    <string name="doze_schedule_summary_on">Doze ripete gli intervalli (di norma [1s, 10s, 30s, 60s, 120s]) saranno utilizzati (predefinito)</string>
+    <string name="doze_schedule_summary_on">Doze ripete gli intervalli che (di norma [1s, 10s, 30s, 60s, 120s]) saranno utilizzati (predefinito)</string>
     <string name="doze_schedule_summary_off">Doze sarà avviato solo una volta per ogni notifica</string>
     <string name="doze_brightness_title">Livello di luminosità doze</string>
     <string name="doze_brightness_summary">Livello di luminosità di avvio dello schermo (% massimo consentito luminosità )</string>
@@ -982,9 +982,9 @@
     <string name="device_policy_override_summary">Consentire alle applicazioni di forzare la schermata di blocco sicuro e sovrascrivono le impostazioni del profilo</string>
     
 	<!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Font orologio del blocco schermo</string>
+    <string name="lock_clock_font_title">Carattere orologio della schermata di blocco</string>
     <string name="lock_clock_font_summary">Modificare il carattere predefinito del widget orologio nella sulla schermata di blocco</string>
-    <string name="lock_clock_font_dialog_title">Selezionare carattere orologio di blocco</string>
+    <string name="lock_clock_font_dialog_title">Selezionare un carattere per l\'orologio</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto Bold</string>
     <string name="lock_clock_font_italic">Roboto italica</string>
@@ -1008,23 +1008,23 @@
     <string name="recent_panel_category">Slim Recenti</string>
     <string name="slim_recents_panel">Slim Recenti</string>
     <string name="use_slim_recents_title">Slim Recenti</string>
-    <string name="show_running_tasks_title">Mostra solo le applicazioni in esecuzione</string>
+    <string name="show_running_tasks_title">Mostra solo le App in esecuzione</string>
     <string name="recents_max_apps_title">Applicazioni massime consentite</string>
     <string name="recent_panel_scale_title">Dimensione</string>
     <string name="recent_panel_expanded_mode_title">Modalità espansa</string>
-    <string name="recent_panel_expanded_mode_summary">Attività recenti modalità anteprima espansa</string>
+    <string name="recent_panel_expanded_mode_summary">Attività i recenti in modalità anteprima espansa</string>
     <string name="recent_panel_expanded_mode_auto">Auto (predefinito)</string>
     <string name="recent_panel_expanded_mode_always">Sempre</string>
     <string name="recent_panel_expanded_mode_never">Mai</string>
-    <string name="recent_panel_show_topmost_title">Mostra task più in alto</string>
-    <string name="recent_panel_show_topmost_summary">Non escludere il task più in alto in vista recenti</string>
+    <string name="recent_panel_show_topmost_title">Mostra in primo piano</string>
+    <string name="recent_panel_show_topmost_summary">Non escludere l'\app in primo piano dai recenti</string>
     <string name="recent_panel_bg_color_title">Colore di sfondo del pannello</string>
-    <string name="recent_card_bg_color_title">Colore di sfondo della carta</string>
-    <string name="recent_card_text_color_title">Il colore del testo della carta</string>
+    <string name="recent_card_bg_color_title">Colore di sfondo delle App</string>
+    <string name="recent_card_text_color_title">Il colore del testo delle App</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostra sul bordo sinistro</string>
-    <string name="recent_panel_lefty_mode_summary">Mostra panello applicazioni recenti sul bordo sinistro</string>
+    <string name="recent_panel_lefty_mode_summary">Mostra il panello delle applicazioni dei recenti sul bordo sinistro</string>
 
     <!-- Slim Recent App Sidebar  -->
     <string name="recent_app_sidebar_title">App sidebar</string>
@@ -1064,10 +1064,10 @@
     <string name="notification_drawer_clear_all_icon_color_title">Icona cancella tutto</string>
 
     <!-- QS shade transparency -->
-    <string name="qs_transparent_shade">QS trasparenza ombra</string>
+    <string name="qs_transparent_shade">Trasparenza pannello notifiche</string>
 
     <!-- QS header transparency -->
-    <string name="qs_transparent_header">QS trasparenza intestazione</string>
+    <string name="qs_transparent_header">Trasparenza pannello intestazione</string>
 
     <!-- Safe headset volume restore checkbox -->
     <string name="safe_headset_volume_title">Volume delle cuffie sicuro</string>
@@ -1087,17 +1087,17 @@
     <string name="voicemail_breath_summary">Darà alle notifiche di posta vocale un effetto di frequenza nella barra di stato</string>
 
     <!-- Dashboard columns -->
-    <string name="dashboard_category">Pannello</string>
-    <string name="dashboard_columns_title">Colonne pannello</string>
-    <string name="dashboard_columns_summary">Modificare il numero di colonne visualizzate nel pannello</string>
+    <string name="dashboard_category">Pannello impostazioni</string>
+    <string name="dashboard_columns_title">Colonne del pannello</string>
+    <string name="dashboard_columns_summary">Modificare il numero di colonne da visualizzate nel pannello</string>
     <string name="dashboard_columns_dialog_title">Selezionare le colonne del pannello</string>
     <string name="dashboard_columns_one">Uno</string>
     <string name="dashboard_columns_two">Due</string>
     <string name="dashboard_columns_three">Tre</string>
-    <string name="dashboard_tileview_double_lines_title">Pannello vista titolo</string>
+    <string name="dashboard_tileview_double_lines_title">Visualizzazione titolo tile</string>
     <string name="dashboard_tileview_double_lines_summary">Mostra nel pannello impostazioni i titoli dei tile in 2 linee</string>
     <string name="dashboard_tileview_dividers_title">Divisori pannello</string>
-    <string name="dashboard_tileview_dividers_summary">Nascondi i divisori tile nel pannello impostazioni</string>
+    <string name="dashboard_tileview_dividers_summary">Nascondi i divisori tile del pannello impostazioni</string>
    
     <!-- MediaScanner behavior on boot -->
     <string name="media_scanner_on_boot_title">Comportamento MediaScanner all\'avvio</string>
@@ -1119,12 +1119,12 @@
     <string name="smart_pulldown_all">Nessun persistente o forzato</string>
 
     <!-- QS Tiles Columns -->
-    <string name="qs_num_columns_title">Numero di QS tile per riga</string>
+    <string name="qs_num_columns_title">Numero di Tile per riga</string>
     <string name="qs_num_columns_showing">%1$s tile per riga sono mostrati</string>
 
     <!-- QS Tiles Rows -->
-    <string name="qs_num_rows_title">Numero di righe QS</string>
-    <string name="qs_num_rows_showing">%1$s file sono mostrati</string>
+    <string name="qs_num_rows_title">Numero di righe Tile</string>
+    <string name="qs_num_rows_showing">%1$s tile sono mostrati</string>
 
     <!-- Lockscreen Colors -->
     <string name="lockscreen_colors_title">Colori della schermata di blocco</string>
