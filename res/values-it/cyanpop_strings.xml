@@ -1017,7 +1017,7 @@
     <string name="recent_panel_expanded_mode_always">Sempre</string>
     <string name="recent_panel_expanded_mode_never">Mai</string>
     <string name="recent_panel_show_topmost_title">Mostra in primo piano</string>
-    <string name="recent_panel_show_topmost_summary">Non escludere l'\app in primo piano dai recenti</string>
+    <string name="recent_panel_show_topmost_summary">Non escludere l\'app in primo piano dai recenti</string>
     <string name="recent_panel_bg_color_title">Colore di sfondo del pannello</string>
     <string name="recent_card_bg_color_title">Colore di sfondo delle App</string>
     <string name="recent_card_text_color_title">Il colore del testo delle App</string>
