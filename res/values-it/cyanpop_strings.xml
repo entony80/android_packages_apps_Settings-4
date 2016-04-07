@@ -1154,4 +1154,8 @@
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
     
+    <!-- Battery light settings -->
+    <string name="battery_light_full_color_title">Carico al (90%)</string>
+    <string name="battery_light_really_full_color_title">Carico al  (100%)</string>
+    
 </resources>
