@@ -797,7 +797,7 @@
 
     <!-- App Circle sidebar -->
     <string name="category_app_circle_bar_title">App launcher</string>
-    <string name="app_circle_bar_title">Abilta App Circle Bar</string>
+    <string name="app_circle_bar_title">App Circle Bar</string>
     <string name="app_circle_bar_summary">Mostra il cerchio e avvia le applicazioni dopo aver toccato il lato destro dello schermo</string>
     <string name="app_circle_bar_included_apps_title">Applicazioni incluse</string>
     <string name="app_circle_bar_included_apps_summary">Le applicazioni che verranno mostrate in App Circle Bar</string>
