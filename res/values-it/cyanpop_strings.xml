@@ -455,9 +455,9 @@
     <string name="reset_lockscreen_wallpaper">Imposta come predefinito</string>
 
     <!-- Lockscreen see through -->
-    <string name="lockscreen_see_through_title">>Sfocatura schermata di blocco</string>
+    <string name="lockscreen_see_through_title">Sfocatura schermata di blocco</string>
     <string name="lockscreen_see_through_summary">Sfoca e visualizza il contenuto dietro la vostra la schermata di blocco</string>
-    <string name="lockscreen_blur_radius">Intensità dell\'effetto Sfocatura</string>
+    <string name="lockscreen_blur_radius">Intensità effetto della sfocatura</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
@@ -484,7 +484,7 @@
 
     <!-- Gesture Anywhere -->
     <string name="gesture_anywhere_title">Gesti ovunque</string>
-    <string name="gesture_anywhere_enabled_title">Abilita gesti ovunque</string>
+    <string name="gesture_anywhere_enabled_title">Gesti ovunque</string>
     <string name="gesture_anywhere_enabled_summary">Abilita il gesto in primo piano ovunque</string>
     <string name="gesture_anywhere_position_title">Posizione attivazione</string>
     <string name="gesture_anywhere_position_left">Bordo sinistro</string>
@@ -514,7 +514,7 @@
     <!-- Message displayed when the user has no gestures -->
     <string name="ga_gestures_empty">Non ci sono gesti</string>
     <!-- Title of the screen used to view/manage gestures -->
-    <string name="ga_gestures_activity">Mimica</string>
+    <string name="ga_gestures_activity">Gesti</string>
     <!-- Noun, menu item used to edit a gesture -->
     <string name="ga_gestures_edit">Modifica</string>
     <!-- Noun, menu item used to remove a gesture -->
