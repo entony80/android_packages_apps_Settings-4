@@ -71,10 +71,24 @@
                  android:selectable="false" />
 
              <Preference
+                 android:key="device_motorola_motog2015"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_motorola_motog2015"
+                 android:summary="@string/device_motorola_motog2015_summary"
+                 android:selectable="false" />
+
+             <Preference
                  android:key="device_motorola_motoe2015"
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_motorola_motoe2015"
                  android:summary="@string/device_motorola_motoe2015_summary"
+                 android:selectable="false" />
+
+             <Preference
+                 android:key="device_motorola_motoe2015lte"
+                 android:icon="@drawable/cr_devices"
+                 android:title="@string/device_motorola_motoe2015lte"
+                 android:summary="@string/device_motorola_motoe2015lte_summary"
                  android:selectable="false" />
 
              <Preference
@@ -117,13 +131,6 @@
                  android:selectable="false" />
 
              <Preference
-                 android:key="device_oneplus_2"
-                 android:icon="@drawable/cr_devices"
-                 android:title="@string/device_oneplus_2"
-                 android:summary="@string/device_oneplus_2_summary"
-                 android:selectable="false" />
-
-             <Preference
                  android:key="device_oneplus_onyx"
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_oneplus_onyx"
@@ -140,13 +147,6 @@
                  android:icon="@drawable/cr_devices"
                  android:title="@string/device_google_n5"
                  android:summary="@string/device_google_n5_summary"
-                 android:selectable="false" />
-
-             <Preference
-                 android:key="device_google_n5x"
-                 android:icon="@drawable/cr_devices"
-                 android:title="@string/device_google_n5x"
-                 android:summary="@string/device_google_n5x_summary"
                  android:selectable="false" />
 
              <Preference

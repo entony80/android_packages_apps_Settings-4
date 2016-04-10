@@ -43,8 +43,14 @@
     <string name="device_motorola_motog2014lte">Motorola Moto G 2014 LTE</string>
     <string name="device_motorola_motog2014lte_summary">thea \nMaintainer - RolanDroid</string>
 
+    <string name="device_motorola_motog2015">Motorola Moto G 2015</string>
+    <string name="device_motorola_motog2015_summary">osprey \nMaintainer - RolanDroid</string>
+
     <string name="device_motorola_motoe2015">Motorola Moto E 2015</string>
     <string name="device_motorola_motoe2015_summary">otus \nMaintainer - RolanDroid</string>
+
+    <string name="device_motorola_motoe2015lte">Motorola Moto E 2015 LTE</string>
+    <string name="device_motorola_motoe2015lte_summary">surnia \nMaintainer - RolanDroid</string>
 
     <string name="device_motorola_motoe">Motorola Moto E</string>
     <string name="device_motorola_motoe_summary">condor \nMaintainer - RolanDroid</string>
@@ -60,18 +66,12 @@
     <string name="device_oneplus_one">OnePlus One</string>
     <string name="device_oneplus_one_summary">Bacon \nMaintainer - RolanDroid</string>
 
-    <string name="device_oneplus_2">OnePlus Two</string>
-    <string name="device_oneplus_2_summary">Oneplus2 \nMaintainer - RolanDroid</string>
-
     <string name="device_oneplus_onyx">OnePlus X</string>
     <string name="device_oneplus_onyx_summary">Onyx \nMaintainer - RolanDroid</string>
 
     <!-- Google devices -->
     <string name="device_google_n5">Google Nexus 5</string>
     <string name="device_google_n5_summary">Hammerhead \nMaintainer - RolanDroid</string>
-
-    <string name="device_google_n5x">Google Nexus 5X</string>
-    <string name="device_google_n5x_summary">Bullhead \nMaintainer - RolanDroid</string>
 
     <string name="device_google_n6">Google Nexus 6</string>
     <string name="device_google_n6_summary">Shamu \nMaintainer - RolanDroid</string>
