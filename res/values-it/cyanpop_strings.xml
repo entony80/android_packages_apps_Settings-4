@@ -371,7 +371,7 @@
     <string name="status_bar_temperature_location_right">Mostra sulla destra</string>
     <string name="status_bar_temperature_location_left">Mostra sulla sinistra</string>
     <string name="status_bar_weather_color_title">Temperatura colore</string>
-    <string name="status_bar_weather_size_title">Dimensione del font</string>
+    <string name="status_bar_weather_size_title">Dimensione del carattere</string>
     <string name="status_bar_weather_font_style_title">Carattere</string>
     <string name="status_bar_weather_font_normal">Normale</string>
     <string name="status_bar_weather_font_italic">Corsivo</string>
@@ -426,7 +426,7 @@
 
     <!-- Max Lockscreen Notification count -->
     <string name="weather_cat_notifications_title">Notifiche</string>
-    <string name="lockscreen_maxnotif_title">Conteggio notifica nella schermata di blocco</string>
+    <string name="lockscreen_maxnotif_title">Conteggio notifiche</string>
     <string name="lockscreen_maxnotif_sumary">Consente di impostare un massimo di notifiche nella schermata di blocco</string>
     <string name="lockscreen_maxnotif_config">Notifiche massime nella schermata di blocco</string>
 
@@ -436,11 +436,11 @@
     <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare come predefinito.</string>
     <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostata</string>
     <string name="status_bar_carrier_color">Colore dell\'etichetta</string>
-    <string name="status_bar_carrier_size">Dimensione del testo dell\'etichetta</string>
+    <string name="status_bar_carrier_size">Dimensioni del testo dell\'etichetta</string>
     <string name="show_carrier_title">Operatore</string>
     <string name="show_carrier_disabled">Operatore disabilitato</string>
     <string name="show_carrier_keyguard">Operatore nel blocco schermo</string>
-    <string name="show_carrier_statusbar">Operatore barra di stato</string>
+    <string name="show_carrier_statusbar">Operatore nella barra di stato</string>
     <string name="show_carrier_enabled">Operatore abilitato</string>
     <string name="status_bar_carrier_position">Posizione Operatore</string>
     <string name="status_bar_logo_position_left">Sinistra</string>
@@ -450,13 +450,13 @@
     <!-- Lockscreen wallpaper -->
     <string name="lockscreen_wallpaper_title">Sfondo</string>
     <string name="lockscreen_wallpaper_summary">Imposta lo sfondo nella schermata di blocco</string>
-    <string name="lockscreen_wallpaper_set_title">Impostare lo sfondo della schermata di blocco</string>
+    <string name="lockscreen_wallpaper_set_title">Imposta lo sfondo nella schermata di blocco</string>
     <string name="lockscreen_wallpaper_clear_title">Elimina sfondo dalla schermata di blocco</string>
     <string name="reset_lockscreen_wallpaper">Imposta come predefinito</string>
 
     <!-- Lockscreen see through -->
     <string name="lockscreen_see_through_title">Sfocatura schermata di blocco</string>
-    <string name="lockscreen_see_through_summary">Sfoca e visualizza il contenuto dietro la vostra la schermata di blocco</string>
+    <string name="lockscreen_see_through_summary">Sfoca e visualizza il contenuto dietro la vostra schermata di blocco</string>
     <string name="lockscreen_blur_radius">Intensità effetto della sfocatura</string>
 
     <!-- Media art -->
@@ -745,7 +745,7 @@
     <string name="cm_lockscreen_shortcuts_title">Scorciatoie angoli inferiori</string>
     <string name="cm_lockscreen_shortcuts_summary">Visualizzare o modificare i collegamenti personalizzati negli angoli inferiori della schermata di blocco</string>
     <!-- Slim lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts_title">Scorciatoie schermata medie</string>
+    <string name="lockscreen_shortcuts_title">Scorciatoie schermata media</string>
     <string name="lockscreen_shortcuts_summary">Visualizzare o modificare i collegamenti personalizzati nello schermo centrale della schermata di blocco</string>
     <string name="lockscreen_shorcuts_launch_type_title">Tipo di collegamento al tocco</string>
     <string name="lockscreen_shortcuts_single_tap">Tocco</string>
@@ -797,7 +797,7 @@
 
     <!-- App Circle sidebar -->
     <string name="category_app_circle_bar_title">App launcher</string>
-    <string name="app_circle_bar_title">App Circle Bar</string>
+    <string name="app_circle_bar_title">Abilita App Circle Bar</string>
     <string name="app_circle_bar_summary">Mostra il cerchio e avvia le applicazioni dopo aver toccato il lato destro dello schermo</string>
     <string name="app_circle_bar_included_apps_title">Applicazioni incluse</string>
     <string name="app_circle_bar_included_apps_summary">Le applicazioni che verranno mostrate in App Circle Bar</string>
@@ -1010,7 +1010,7 @@
     <string name="use_slim_recents_title">Slim Recenti</string>
     <string name="show_running_tasks_title">Mostra solo le App in esecuzione</string>
     <string name="recents_max_apps_title">Applicazioni massime consentite</string>
-    <string name="recent_panel_scale_title">Dimensione</string>
+    <string name="recent_panel_scale_title">Dimensioni</string>
     <string name="recent_panel_expanded_mode_title">Modalità espansa</string>
     <string name="recent_panel_expanded_mode_summary">Attività i recenti in modalità anteprima espansa</string>
     <string name="recent_panel_expanded_mode_auto">Auto (predefinito)</string>
@@ -1018,9 +1018,9 @@
     <string name="recent_panel_expanded_mode_never">Mai</string>
     <string name="recent_panel_show_topmost_title">Mostra in primo piano</string>
     <string name="recent_panel_show_topmost_summary">Non escludere l\'app in primo piano dai recenti</string>
-    <string name="recent_panel_bg_color_title">Colore di sfondo del pannello</string>
-    <string name="recent_card_bg_color_title">Colore di sfondo delle App</string>
-    <string name="recent_card_text_color_title">Il colore del testo delle App</string>
+    <string name="recent_panel_bg_color_title">Colore sfondo del pannello</string>
+    <string name="recent_card_bg_color_title">Colore sfondo delle App</string>
+    <string name="recent_card_text_color_title">Colore testo delle App</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostra sul bordo sinistro</string>
@@ -1028,7 +1028,7 @@
 
     <!-- Slim Recent App Sidebar  -->
     <string name="recent_app_sidebar_title">App sidebar</string>
-    <string name="recent_app_sidebar_summary">Mostra scorciatoie app sull\'altro bordo</string>
+    <string name="recent_app_sidebar_summary">Mostra le scorciatoie sul bordo opposto</string>
     <string name="recent_app_sidebar_style_title">Stile Sidebar</string>
     <string name="recent_app_sidebar_style_summary">Modifica lo stile delle applicazioni recenti della barra laterale</string>
     <string name="recent_app_sidebar_hide_labels_title">Nascondere le etichette icona</string>
@@ -1107,8 +1107,8 @@
    
     <!-- Hide Lockscreen clock & date -->
     <string name="hide_lockscreen_items_title">Voci nella schermata di blocco</string>
-    <string name="hide_lockscreen_clock_title">Mostra l\'orologio nella schermata di blocco</string>
-    <string name="hide_lockscreen_date_title">Mostra la data nella schermata di blocco</string>
+    <string name="hide_lockscreen_clock_title">Mostra l\'orologio</string>
+    <string name="hide_lockscreen_date_title">Mostra la data</string>
 
     <!-- Smart pulldown -->
     <string name="smart_pulldown_title">Discesa intelligente</string>
@@ -1153,6 +1153,22 @@
     <string name="heads_up_time_out_6sec">6 secondi</string>
     <string name="heads_up_time_out_8sec">8 secondi</string>
     <string name="heads_up_time_out_10sec">10 secondi</string>
+    
+     <!-- Heads Up Snooze -->
+    <string name="heads_up_snooze">Snooze</string>
+    <string name="heads_up_snooze_summary">Le notifiche non verranno mostrate per i prossimi <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minuti</string>
+    <string name="heads_up_snooze_10min">10 minuti</string>
+    <string name="heads_up_snooze_15min">15 minuti</string>
+    <string name="heads_up_snooze_20min">20 minuti</string>
+    <string name="heads_up_snooze_30min">30 minuti</string>
+    <string name="heads_up_snooze_45min">45 minuti</string>
+    <string name="heads_up_snooze_60min">60 minuti</string>
+
+    <!-- Force Heads Up on all applications -->
+    <string name="force_headsup_title">Forza heads up</string>
+    <string name="force_headsup_summary">Forza heads up in tutte le applicazioni</string>
     
     <!-- Battery light settings -->
     <string name="battery_light_full_color_title">Carico al (90%)</string>
