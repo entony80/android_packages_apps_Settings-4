@@ -2193,6 +2193,9 @@
                 android:resource="@id/button_settings" />
         </activity>
 
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name=".cyanpop.HAFRAppListActivity" />
+
         <!-- CyanPop Stuff End -->
 
         <!-- CyanogenMod activities Start -->
