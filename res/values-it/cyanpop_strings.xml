@@ -149,26 +149,26 @@
 
     <!-- RAM bar -->
     <string name="recents_show_membar_title">Barra di memoria RAM</string>
-    <string name="recents_show_membar_summary_on">La barra di memoria RAM sarà visualizzata nel Display App Recenti</string>
-    <string name="recents_show_membar_summary_off">Visualizzare la memoria RAM disponibile sulla barra di visualizzazione delle app recenti</string>
+    <string name="recents_show_membar_summary_on">Verrà visualizzata in alto nelle App recenti la barra della memoria RAM</string>
+    <string name="recents_show_membar_summary_off">Abilita per visualizzare sulla barra la memoria RAM disponibile delle App recenti</string>
 
     <!-- Recents panel settings -->
     <string name="recents_panel_title">Pannello Recenti</string>
     <string name="recents_settings_title">Recenti</string>
     <string name="recents_panel_category">AOSP Recenti</string>
     <string name="recents_panel_settings">Impostazioni pannello recenti</string>
-    <string name="show_clear_all_recents_button_title">Pulsante cancella tutti i recenti</string>
-    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto sul pannello recenti</string>
-    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutti i recenti</string>
+    <string name="show_clear_all_recents_button_title">Abilita pulsante recenti</string>
+    <string name="show_clear_all_recents_button_summary">Visualizza il pulsante termina tutto sul pannello recenti</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante recenti</string>
     <string name="recents_clear_all_location_top_right">In alto a destra</string>
     <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
     <string name="recents_clear_all_location_top_center">In alto al centro</string>
     <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
     <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
     <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
-    <string name="recents_clear_all_dismiss_all_title">Cancellare tutte le attività</string>
-    <string name="recents_clear_all_dismiss_all_summary">Scegliere se eliminare tutte le attività o ignorare le attività in primo piano</string>
-
+    <string name="recents_clear_all_dismiss_all_title">Termina tutte le attività</string>
+    <string name="recents_clear_all_dismiss_all_summary">Scegliere se terminare tutte le attività o ignorare le attività in primo piano</string>
+    
     <!-- Recents Fullscreen -->
     <string name="recents_show_fullscreen">Recenti a schermo intero</string>
     <string name="recents_fullscreen_summary_enabled">Recenti a schermo intero è attivato</string>
@@ -262,8 +262,8 @@
 
     <!-- Navigation bar -->
     <string name="nav_bar_title">Barra di navigazione</string>
-    <string name="navbar_enable_bar_title">Pulsanti della barra di navigazione</string>
-    <string name="navbar_enable_bar_summary">Abilita pulsanti della barra di navigazione sullo schermo</string>
+    <string name="navbar_enable_bar_title">Abilita la barra di navigazione</string>
+    <string name="navbar_enable_bar_summary">Abilita i pulsanti della barra di navigazione sullo schermo</string>
     <string name="navbar_style_dimen_title">Dimensioni barra di navigazione</string>
     <string name="navbar_dimensions_reset_message">Ripristina tutte le dimensioni delle voci come predefinito?</string>
     <string name="navigation_bar_height_title">Altezza barra di navigazione</string>
@@ -283,7 +283,7 @@
     <string name="navigation_bar_size_0_dp">0 dp (spento)</string>
 
     <!-- Navigation bar button color -->
-    <string name="navbar_button_tint_title">Tinta pulsante di navigazione</string>
+    <string name="navbar_button_tint_title">Colore dei pulsanti di navigazione</string>
 
     <!-- Double Tap Navbar to Sleep -->
     <string name="double_tap_sleep_nav_bar_title">Doppio Tap per spegnere</string>
@@ -295,14 +295,13 @@
 
     <!-- Unaccounted and overcounted battery stats -->
     <string name="show_unac_and_overcounted_stats_title">Mostra statistiche dispersi/sovrastima</string>
-    <string name="show_unac_and_overcounted_stats_summary">Mostra in statistiche batteria l\'utilizzo dispersi e sovrastima.</string>
+    <string name="show_unac_and_overcounted_stats_summary">Mostra nelle statistiche della batteria l\'utilizzo dispersi e sovrastima.</string>
 
     <!-- SlimDim -->
     <string name="dim_nav_buttons_category">SlimDim</string>
     <string name="dim_nav_buttons_title">Oscurare i pulsanti dopo inattività</string>
-
-	<string name="dim_nav_buttons_summary">Oscurare i pulsanti della barra di navigazione per un periodo di tempo specificato dopo che non si interaggisce più con la stessa</string>
-    <string name="dim_nav_buttons_timeout_title">Tempo prima dello spegnimento</string>
+    <string name="dim_nav_buttons_summary">Oscurare i pulsanti della barra di navigazione per un periodo di tempo specificato dopo che non si interaggisce più con la stessa</string>
+    <string name="dim_nav_buttons_timeout_title">Tempo prima dello spegnimento dello schermo</string>
     <string name="dim_nav_buttons_timeout_summary">Il tempo (in millisecondi) di attesa prima di spegnere i pulsanti</string>
     <string name="dim_nav_buttons_alpha_title">Valore alpha di oscuramento</string>
     <string name="dim_nav_buttons_alpha_summary">Valore alfa per abbassare i pulsanti a</string>
@@ -310,13 +309,13 @@
     <string name="dim_nav_buttons_animate_summary">Animare la dissolvenza alpha</string>
     <string name="dim_nav_buttons_animate_duration_title">Durata animazione</string>
     <string name="dim_nav_buttons_animate_duration_summary">Durata (in millisecondi) dell\'animazione alpha</string>
-    <string name="dim_nav_buttons_touch_anywhere_title">Tocco schermo</string>
+    <string name="dim_nav_buttons_touch_anywhere_title">Tocca tutto lo schermo</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_on">Toccando un punto qualsiasi dello schermo farà sì che i pulsanti non si oscureranno</string>
     <string name="dim_nav_buttons_touch_anywhere_summary_off">Toccando solamente sulla barra di navigazione i pulsanti non si oscureranno</string>
 
     <!-- Status bar header -->
     <string name="status_bar_header_title">Intestazione Barra di stato</string>
-    <string name="status_bar_header_font_style_title">Stile del carattere intestazione</string>
+    <string name="status_bar_header_font_style_title">Stile del carattere dell\'intestazione</string>
     <string name="status_bar_custom_header_title">Immagine di intestazione personalizzata</string>
     <string name="status_bar_custom_header_summary">Abilita un\'immagine di intestazione nel pannello di notifica</string>
     <string name="status_bar_custom_header_default_title">Seleziona un\'immagine</string>
@@ -366,11 +365,11 @@
     <string name="status_bar_temperature_hidden">Nascosto</string>
     <string name="status_bar_temperature_show_scale">Indicato con la scala</string>
     <string name="status_bar_temperature_hide_scale">Indicato senza scala</string>
-    <string name="status_bar_temperature_location_title">collocamento</string>
-    <string name="status_bar_temperature_location_summary">Selezionare dove la temperatura tempo viene visualizzata nella barra di stato</string>
-    <string name="status_bar_temperature_location_right">Mostra sulla destra</string>
-    <string name="status_bar_temperature_location_left">Mostra sulla sinistra</string>
-    <string name="status_bar_weather_color_title">Temperatura colore</string>
+    <string name="status_bar_temperature_location_title">Posizione</string>
+    <string name="status_bar_temperature_location_summary">Selezionare dove la temperatura del tempo viene visualizzata nella barra di stato</string>
+    <string name="status_bar_temperature_location_right">Mostra a destra</string>
+    <string name="status_bar_temperature_location_left">Mostra a sinistra</string>
+    <string name="status_bar_weather_color_title">Colore Temperatura</string>
     <string name="status_bar_weather_size_title">Dimensione del carattere</string>
     <string name="status_bar_weather_font_style_title">Carattere</string>
     <string name="status_bar_weather_font_normal">Normale</string>
@@ -403,30 +402,30 @@
     <string name="status_bar_show_weather_category">Meteo</string>
     <string name="lock_screen_weather_settings_title">Meteo nella schermata di blocco</string>
     <string name="weather_show_weather_title">Visualizza Meteo</string>
-    <string name="weather_show_weather_summary">Attiva per mostrare informazioni meteo</string>
-    <string name="weather_show_location_title">Mostra posizione</string>
+    <string name="weather_show_weather_summary">Attiva per mostrare le informazioni meteo</string>
+    <string name="weather_show_location_title">Mostra localizzazione</string>
     <string name="weather_show_location_summary">Attiva per mostrare la posizione</string>
     <string name="weather_show_timestamp_title">Mostra timestamp</string>
     <string name="weather_show_timestamp_summary">Abilitare per mostrare il timestamp</string>
-    <string name="weather_condition_icon_title">Icona condizioni</string>
+    <string name="weather_condition_icon_title">Icona condizione</string>
     <string name="weather_condition_icon_dlg_title">Scegliere un\'icona per visualizzare le condizioni meteo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromo</string>
     <string name="weather_condition_icon_colored_title">Colorato</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
     <string name="weather_colorize_all_icons_title">Colora tutte le icone</string>
-    <string name="weather_colorize_all_icons_summary">Attivare per colorare tutte le icone, disabilitare per colorare solo le icone monocromatiche</string>
+    <string name="weather_colorize_all_icons_summary">Attiva per colorare tutte le icone, disabilitare per colorare solo le icone monocromatiche</string>
     <string name="icons_title">Icone</string>
     <string name="position_right_title">Destra</string>
     <string name="position_centered_title">Centrato</string>
     <string name="hidden_title">Nascosto</string>
-    <string name="dlg_reset_values_message">Ripristina i valori come predefinito?</string>
+    <string name="dlg_reset_values_message">Ripristino dei valori come predefinito?</string>
     <string name="dlg_reset_android">Ok</string>
     <string name="colors_title">Colori</string>
     <string name="text_title">Testo</string>
 
     <!-- Max Lockscreen Notification count -->
     <string name="weather_cat_notifications_title">Notifiche</string>
-    <string name="lockscreen_maxnotif_title">Conteggio notifiche</string>
+    <string name="lockscreen_maxnotif_title">Conteggio notifiche nella schermata di blocco</string>
     <string name="lockscreen_maxnotif_sumary">Consente di impostare un massimo di notifiche nella schermata di blocco</string>
     <string name="lockscreen_maxnotif_config">Notifiche massime nella schermata di blocco</string>
 
@@ -436,11 +435,11 @@
     <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare come predefinito.</string>
     <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostata</string>
     <string name="status_bar_carrier_color">Colore dell\'etichetta</string>
-    <string name="status_bar_carrier_size">Dimensioni del testo dell\'etichetta</string>
+    <string name="status_bar_carrier_size">Dimensione del testo dell\'etichetta</string>
     <string name="show_carrier_title">Operatore</string>
     <string name="show_carrier_disabled">Operatore disabilitato</string>
     <string name="show_carrier_keyguard">Operatore nel blocco schermo</string>
-    <string name="show_carrier_statusbar">Operatore nella barra di stato</string>
+    <string name="show_carrier_statusbar">Operatore barra di stato</string>
     <string name="show_carrier_enabled">Operatore abilitato</string>
     <string name="status_bar_carrier_position">Posizione Operatore</string>
     <string name="status_bar_logo_position_left">Sinistra</string>
@@ -450,14 +449,14 @@
     <!-- Lockscreen wallpaper -->
     <string name="lockscreen_wallpaper_title">Sfondo</string>
     <string name="lockscreen_wallpaper_summary">Imposta lo sfondo nella schermata di blocco</string>
-    <string name="lockscreen_wallpaper_set_title">Imposta lo sfondo nella schermata di blocco</string>
+    <string name="lockscreen_wallpaper_set_title">Impostare lo sfondo della schermata di blocco</string>
     <string name="lockscreen_wallpaper_clear_title">Elimina sfondo dalla schermata di blocco</string>
     <string name="reset_lockscreen_wallpaper">Imposta come predefinito</string>
 
     <!-- Lockscreen see through -->
     <string name="lockscreen_see_through_title">Sfocatura schermata di blocco</string>
     <string name="lockscreen_see_through_summary">Sfoca e visualizza il contenuto dietro la vostra schermata di blocco</string>
-    <string name="lockscreen_blur_radius">Intensità effetto della sfocatura</string>
+    <string name="lockscreen_blur_radius">Intensità dell\'effetto di sfocatura</string>
 
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
@@ -484,7 +483,7 @@
 
     <!-- Gesture Anywhere -->
     <string name="gesture_anywhere_title">Gesti ovunque</string>
-    <string name="gesture_anywhere_enabled_title">Gesti ovunque</string>
+    <string name="gesture_anywhere_enabled_title">Abilita gesti ovunque</string>
     <string name="gesture_anywhere_enabled_summary">Abilita il gesto in primo piano ovunque</string>
     <string name="gesture_anywhere_position_title">Posizione attivazione</string>
     <string name="gesture_anywhere_position_left">Bordo sinistro</string>
@@ -554,29 +553,30 @@
     <!--Power menu -->
     <string name="power_category">Menu alimentazione</string>
     <string name="lockscreen_enable_power_menu_title">Mostra nella schermata di blocco il menù di alimentazione</string>
-    <string name="lockscreen_enable_power_menu_summary">Questa opzione può disattivare il menù di alimentazione sugli schermi con blocco sicurezza</string>
+     <string name="lockscreen_enable_power_menu_summary">Questa opzione può disattivare il menù di alimentazione sugli schermi di blocco sicurezza</string>
 
     <!-- Slim DSLV -->
     <string name="shortcut_action_none">Nessuna</string>
-    <string name="shortcut_action_longpress">Pressione prolungata:</string>
-    <string name="shortcut_action_select_action_longpress">cegliere un\'azione della pressione prolungata:</string>
-    <string name="shortcut_action_select_action">Scegliere un\'azione:</string>
-    <string name="shortcut_action_select_action_newaction">Scegli una nuova azione:</string>
+    <string name="shortcut_action_longpress">Premere a lungo:</string>
+    <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolungata:</string>
+    <string name="shortcut_action_select_action">Scegli azione:</string>
+    <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
     <string name="shortcut_action_reset">Ripristina</string>
     <string name="shortcut_action_add">Aggiungere</string>
-    <string name="shortcut_action_reset_message">Ripristina tutte le voci predefinite?</string>
-    <string name="shortcut_action_max">Le dimensioni massime sono state raggiunte</string>
+    <string name="shortcut_action_reset_message">Ripristina tutte le voci di default?</string>
+    <string name="shortcut_action_max">Dimensioni massime sono state raggiunte</string>
     <string name="shortcut_action_warning">Avvertimento</string>
-    <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
-    <string name="shortcut_action_disable_message">Disabilita\Aggiungi una voce per attivare questa funzione</string>
-    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha restituito l\'icona valida o non supporta il ritaglio dell\'immagine. Utilizzare un\'altra applicazione.</string>
-    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
+    <string name="shortcut_action_warning_message">Non è possibile eliminare ultima voce</string>
+    <string name="shortcut_action_disable_message">Disabilita\nAggiungi una voce per attivare questa funzione</string>
+    <string name="shortcut_image_not_valid">L\'applicazione scelta non ha restituito l\'icona valida o non supporta ritaglio immagine. Utilizzare un\'altra applicazione.</string>
+    <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunto due volte</string>
     <string name="shortcut_action_help_shortcut">Scorciatoia</string>
     <string name="shortcut_action_help_button">Pulsante</string>
     <string name="shortcut_action_help_app">App</string>
-    <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono le possibilità di personalizzazione</string>	
+    <string name="shortcut_action_help_icon">, mentre selezionando l\'icona, si aprono possibilità  di personalizzazione</string>
+	
 
-	<string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\n per rimuovere un %1$s, striscia la fila orizzontale verso sinistra o destra. Riordina il %1$s nella lista trascinando verticalmente ancora a sinistra.\n\n Per trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
+    <string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona aggiungi. Una volta che un %1$s si aggiunge, selezionando la riga cambierà l\'obiettivo %2$s\n\n per rimuovere un %1$s, striscia la fila orizzontale verso sinistra o destra. Riordina il %1$s nella lista trascinando verticalmente ancora a sinistra.\n\n Per trasparente o ripristinare le impostazioni, selezionare l\'icona per ripristinare.</string>
     <string name="shortcut_action_help_delete_last_entry">La rimozione di ogni %1$s dall\'elenco la funzione verrà disattivata completamente.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">La rimozione di ogni %1$ s nell\'elenco disattiverà il secondo strato di torta interamente.</string>
    
@@ -769,8 +769,7 @@
     <string name="shortcut_action_media_play_pause">Musica - riproduzione/pausa</string>
     <string name="shortcut_action_media_previous">Musica - traccia precedente</string>
     <string name="shortcut_action_wake_device">Servizio sveglia</string>
-    
-	<string name="shortcut_action_longpress">Pressione prolungata:</string>
+    <string name="shortcut_action_longpress">Pressione prolungata:</string>
     <string name="shortcut_action_select_action_longpress">Scegli azione pressione prolugata:</string>
     <string name="shortcut_action_select_action">Scegli azione:</string>
     <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
@@ -797,7 +796,7 @@
 
     <!-- App Circle sidebar -->
     <string name="category_app_circle_bar_title">App launcher</string>
-    <string name="app_circle_bar_title">Abilita App Circle Bar</string>
+    <string name="app_circle_bar_title">App Circle Bar</string>
     <string name="app_circle_bar_summary">Mostra il cerchio e avvia le applicazioni dopo aver toccato il lato destro dello schermo</string>
     <string name="app_circle_bar_included_apps_title">Applicazioni incluse</string>
     <string name="app_circle_bar_included_apps_summary">Le applicazioni che verranno mostrate in App Circle Bar</string>
