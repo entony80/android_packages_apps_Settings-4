@@ -1173,4 +1173,9 @@
     <string name="battery_light_full_color_title">Carico al (90%)</string>
     <string name="battery_light_really_full_color_title">Carico al  (100%)</string>
     
+    <!-- Hide apps from recents -->
+    <string name="hide_from_recents_add_app">Aggiungi App</string>
+    <string name="hide_apps_from_recents_title">App nascoste</string>
+    <string name="hide_apps_from_recents_summary">Scegliere quali applicazioni vuoi escludere dal pannello recenti.</string>
+    
 </resources>
